@@ -94,7 +94,7 @@ public class FatTreeGenerator {
         // Aggregation layer <--> Edge layer
         for (int i = 0; i < aggNodes.length; i++) {
             for (int j = 0; j < edgeNodes.length; j++) {
-                if (i >> 1 == j >> 1) {
+                if (i / (k / 2) == j / (k / 2)) {
                     connections.add(new Connection(aggNodes[i], edgeNodes[j], channel));
                 }
             }
