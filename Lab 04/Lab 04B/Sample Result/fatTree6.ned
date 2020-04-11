@@ -7,12 +7,15 @@ network Lab4b2
             datarate = 100Mbps;
         }
     submodules:
-        core0: Node {@display("i=block/switch;p=180.0,50.0");}
-        core1: Node {@display("i=block/switch;p=540.0,50.0");}
-        core2: Node {@display("i=block/switch;p=900.0,50.0");}
-        core3: Node {@display("i=block/switch;p=1260.0,50.0");}
-        core4: Node {@display("i=block/switch;p=1620.0,50.0");}
-        core5: Node {@display("i=block/switch;p=1980.0,50.0");}
+        core0: Node {@display("i=block/switch;p=120.0,50.0");}
+        core1: Node {@display("i=block/switch;p=360.0,50.0");}
+        core2: Node {@display("i=block/switch;p=600.0,50.0");}
+        core3: Node {@display("i=block/switch;p=840.0,50.0");}
+        core4: Node {@display("i=block/switch;p=1080.0,50.0");}
+        core5: Node {@display("i=block/switch;p=1320.0,50.0");}
+        core6: Node {@display("i=block/switch;p=1560.0,50.0");}
+        core7: Node {@display("i=block/switch;p=1800.0,50.0");}
+        core8: Node {@display("i=block/switch;p=2040.0,50.0");}
         agg0: Node {@display("i=block/switch,cyan;p=60.0,250.0");}
         agg1: Node {@display("i=block/switch,cyan;p=180.0,250.0");}
         agg2: Node {@display("i=block/switch,cyan;p=300.0,250.0");}
@@ -105,59 +108,59 @@ network Lab4b2
         pc53: Node {@display("i=device/pc;p=2140.0,650.0");}
     connections:
         core0.gate++ <--> Channel <--> agg0.gate++;
-        core0.gate++ <--> Channel <--> agg2.gate++;
-        core0.gate++ <--> Channel <--> agg4.gate++;
+        core0.gate++ <--> Channel <--> agg3.gate++;
         core0.gate++ <--> Channel <--> agg6.gate++;
-        core0.gate++ <--> Channel <--> agg8.gate++;
-        core0.gate++ <--> Channel <--> agg10.gate++;
+        core0.gate++ <--> Channel <--> agg9.gate++;
         core0.gate++ <--> Channel <--> agg12.gate++;
-        core0.gate++ <--> Channel <--> agg14.gate++;
-        core0.gate++ <--> Channel <--> agg16.gate++;
-        core1.gate++ <--> Channel <--> agg0.gate++;
-        core1.gate++ <--> Channel <--> agg2.gate++;
+        core0.gate++ <--> Channel <--> agg15.gate++;
+        core1.gate++ <--> Channel <--> agg1.gate++;
         core1.gate++ <--> Channel <--> agg4.gate++;
-        core1.gate++ <--> Channel <--> agg6.gate++;
-        core1.gate++ <--> Channel <--> agg8.gate++;
+        core1.gate++ <--> Channel <--> agg7.gate++;
         core1.gate++ <--> Channel <--> agg10.gate++;
-        core1.gate++ <--> Channel <--> agg12.gate++;
-        core1.gate++ <--> Channel <--> agg14.gate++;
+        core1.gate++ <--> Channel <--> agg13.gate++;
         core1.gate++ <--> Channel <--> agg16.gate++;
-        core2.gate++ <--> Channel <--> agg1.gate++;
-        core2.gate++ <--> Channel <--> agg3.gate++;
+        core2.gate++ <--> Channel <--> agg2.gate++;
         core2.gate++ <--> Channel <--> agg5.gate++;
-        core2.gate++ <--> Channel <--> agg7.gate++;
-        core2.gate++ <--> Channel <--> agg9.gate++;
+        core2.gate++ <--> Channel <--> agg8.gate++;
         core2.gate++ <--> Channel <--> agg11.gate++;
-        core2.gate++ <--> Channel <--> agg13.gate++;
-        core2.gate++ <--> Channel <--> agg15.gate++;
+        core2.gate++ <--> Channel <--> agg14.gate++;
         core2.gate++ <--> Channel <--> agg17.gate++;
-        core3.gate++ <--> Channel <--> agg1.gate++;
+        core3.gate++ <--> Channel <--> agg0.gate++;
         core3.gate++ <--> Channel <--> agg3.gate++;
-        core3.gate++ <--> Channel <--> agg5.gate++;
-        core3.gate++ <--> Channel <--> agg7.gate++;
+        core3.gate++ <--> Channel <--> agg6.gate++;
         core3.gate++ <--> Channel <--> agg9.gate++;
-        core3.gate++ <--> Channel <--> agg11.gate++;
-        core3.gate++ <--> Channel <--> agg13.gate++;
+        core3.gate++ <--> Channel <--> agg12.gate++;
         core3.gate++ <--> Channel <--> agg15.gate++;
-        core3.gate++ <--> Channel <--> agg17.gate++;
         core4.gate++ <--> Channel <--> agg1.gate++;
-        core4.gate++ <--> Channel <--> agg3.gate++;
-        core4.gate++ <--> Channel <--> agg5.gate++;
+        core4.gate++ <--> Channel <--> agg4.gate++;
         core4.gate++ <--> Channel <--> agg7.gate++;
-        core4.gate++ <--> Channel <--> agg9.gate++;
-        core4.gate++ <--> Channel <--> agg11.gate++;
+        core4.gate++ <--> Channel <--> agg10.gate++;
         core4.gate++ <--> Channel <--> agg13.gate++;
-        core4.gate++ <--> Channel <--> agg15.gate++;
-        core4.gate++ <--> Channel <--> agg17.gate++;
-        core5.gate++ <--> Channel <--> agg1.gate++;
-        core5.gate++ <--> Channel <--> agg3.gate++;
+        core4.gate++ <--> Channel <--> agg16.gate++;
+        core5.gate++ <--> Channel <--> agg2.gate++;
         core5.gate++ <--> Channel <--> agg5.gate++;
-        core5.gate++ <--> Channel <--> agg7.gate++;
-        core5.gate++ <--> Channel <--> agg9.gate++;
+        core5.gate++ <--> Channel <--> agg8.gate++;
         core5.gate++ <--> Channel <--> agg11.gate++;
-        core5.gate++ <--> Channel <--> agg13.gate++;
-        core5.gate++ <--> Channel <--> agg15.gate++;
+        core5.gate++ <--> Channel <--> agg14.gate++;
         core5.gate++ <--> Channel <--> agg17.gate++;
+        core6.gate++ <--> Channel <--> agg0.gate++;
+        core6.gate++ <--> Channel <--> agg3.gate++;
+        core6.gate++ <--> Channel <--> agg6.gate++;
+        core6.gate++ <--> Channel <--> agg9.gate++;
+        core6.gate++ <--> Channel <--> agg12.gate++;
+        core6.gate++ <--> Channel <--> agg15.gate++;
+        core7.gate++ <--> Channel <--> agg1.gate++;
+        core7.gate++ <--> Channel <--> agg4.gate++;
+        core7.gate++ <--> Channel <--> agg7.gate++;
+        core7.gate++ <--> Channel <--> agg10.gate++;
+        core7.gate++ <--> Channel <--> agg13.gate++;
+        core7.gate++ <--> Channel <--> agg16.gate++;
+        core8.gate++ <--> Channel <--> agg2.gate++;
+        core8.gate++ <--> Channel <--> agg5.gate++;
+        core8.gate++ <--> Channel <--> agg8.gate++;
+        core8.gate++ <--> Channel <--> agg11.gate++;
+        core8.gate++ <--> Channel <--> agg14.gate++;
+        core8.gate++ <--> Channel <--> agg17.gate++;
         agg0.gate++ <--> Channel <--> edge0.gate++;
         agg0.gate++ <--> Channel <--> edge1.gate++;
         agg0.gate++ <--> Channel <--> edge2.gate++;

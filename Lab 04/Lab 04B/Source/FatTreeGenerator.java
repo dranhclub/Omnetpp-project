@@ -12,7 +12,7 @@ public class FatTreeGenerator {
     final double OFFSETX = 0;
     final double OFFSETY = 50;
     final double WIDTH;
-    final double HEIGHT = 800;
+    final double HEIGHT = 1000;
     final double PADDING;
 
     final int k;
@@ -40,7 +40,7 @@ public class FatTreeGenerator {
     }
 
     private void initNodes() {
-        coreNodes = new Node[k];
+        coreNodes = new Node[k * k / 4];
         for (int i = 0; i < coreNodes.length; i++) {
             coreNodes[i] = new Node("core", "core" + i);
         }
@@ -62,21 +62,25 @@ public class FatTreeGenerator {
     }
 
     private void setNodePositions() {
+        final double CORE_PADDING = PADDING * k;
+        final double AGG_PADDING = PADDING * k / 2;
+        final double PC_PADDING = PADDING;
+
         for (int i = 0; i < coreNodes.length; i++) {
-            coreNodes[i].setX(OFFSETX + i * PADDING * k * k / 4 + WIDTH / 2 - (coreNodes.length - 1) / 2.0 * PADDING * k * k / 4);
+            coreNodes[i].setX(OFFSETX + i * CORE_PADDING + WIDTH / 2 - (coreNodes.length - 1) / 2.0 * CORE_PADDING);
             coreNodes[i].setY(OFFSETY);
         }
         for (int i = 0; i < aggNodes.length; i++) {
-            aggNodes[i].setX(OFFSETX + i * PADDING * k / 2 + WIDTH / 2 - (aggNodes.length - 1) / 2.0 * PADDING * k / 2);
-            aggNodes[i].setY(OFFSETY + 200);
+            aggNodes[i].setX(OFFSETX + i * AGG_PADDING + WIDTH / 2 - (aggNodes.length - 1) / 2.0 * AGG_PADDING);
+            aggNodes[i].setY(OFFSETY + 400);
         }
         for (int i = 0; i < edgeNodes.length; i++) {
-            edgeNodes[i].setX(OFFSETX + i * PADDING * k / 2 + WIDTH / 2 - (edgeNodes.length - 1) / 2.0 * PADDING * k / 2);
-            edgeNodes[i].setY(OFFSETY + 400);
+            edgeNodes[i].setX(OFFSETX + i * AGG_PADDING + WIDTH / 2 - (aggNodes.length - 1) / 2.0 * AGG_PADDING);
+            edgeNodes[i].setY(OFFSETY + 600);
         }
         for (int i = 0; i < pcNodes.length; i++) {
-            pcNodes[i].setX(OFFSETX + i * PADDING + WIDTH / 2 - (pcNodes.length - 1) / 2.0 * PADDING);
-            pcNodes[i].setY(OFFSETY + 600);
+            pcNodes[i].setX(OFFSETX + i * PC_PADDING + WIDTH / 2 - (pcNodes.length - 1) / 2.0 * PC_PADDING);
+            pcNodes[i].setY(OFFSETY + 800);
         }
     }
 
@@ -85,7 +89,7 @@ public class FatTreeGenerator {
         // Core layer <--> Aggregation Layer
         for (int i = 0; i < coreNodes.length; i++) {
             for (int j = 0; j < aggNodes.length; j++) {
-                if (i < 2 && j % 2 == 0 || i >= 2 && j % 2 == 1) {
+                if (j % (k / 2) == i % (k / 2)) {
                     connections.add(new Connection(coreNodes[i], aggNodes[j], channel));
                 }
             }
@@ -103,7 +107,7 @@ public class FatTreeGenerator {
         // Edge layer
         for (int i = 0; i < edgeNodes.length; i++) {
             for (int j = 0; j < pcNodes.length; j++) {
-                if (j/(k/2) == i) {
+                if (j / (k / 2) == i) {
                     connections.add(new Connection(edgeNodes[i], pcNodes[j], channel));
                 }
             }
@@ -117,8 +121,8 @@ public class FatTreeGenerator {
                 "{\n" +
                 "    @display(\"bgb=" + WIDTH + ", " + HEIGHT + "\");\n" +
                 "    types:\n" +
-                "        channel " + channel.getName() +" extends ned.DatarateChannel {\n" +
-                "            datarate = "+ channel.getDataRate() +"Mbps;\n" +
+                "        channel " + channel.getName() + " extends ned.DatarateChannel {\n" +
+                "            datarate = " + channel.getDataRate() + "Mbps;\n" +
                 "        }\n" +
                 "    submodules:\n");
         for (var m : coreNodes) {
@@ -134,7 +138,7 @@ public class FatTreeGenerator {
             ret.append(m.toNED());
         }
         ret.append("\tconnections:\n");
-        for (var c : connections){
+        for (var c : connections) {
             ret.append(c.toNED());
         }
         ret.append("}");
