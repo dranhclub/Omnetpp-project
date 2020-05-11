@@ -14,6 +14,7 @@ private:
 protected:
     virtual void initialize() override;
     virtual void handleMessage(cMessage *msg) override;
+    virtual void finish() override;
 };
 
 Define_Module(Switch);
@@ -32,6 +33,10 @@ void Switch::initialize() {
 }
 
 void Switch::handleMessage(cMessage *msg) {
+    // Kiểm tra TIMEOUT
+    if (simTime() >= TIMEOUT){
+        return;
+    }
 
     // Nhận và đếm số gói tin
     if (strcmp(msg->getName(), "testMsg") == 0) {
@@ -42,16 +47,15 @@ void Switch::handleMessage(cMessage *msg) {
 
     // Chuyển interval
     if (strcmp(msg->getName(), "nextInterval") == 0) {
-        if (simTime() < TIMEOUT) {
-            intervalCount++;
-            scheduleAt(simTime() + MSG_GEN_INTERVAL, msg);
-        } else {
-            cancelEvent(msg);
-            for (int i = 0; i < arrayLength; i++) {
-                EV << "interval " << i << ", received " << receivedMsgCount[i]
-                          << " messages" << endl;
-            }
-        }
+        intervalCount++;
+        scheduleAt(simTime() + MSG_GEN_INTERVAL, msg);
+    }
+}
+
+void Switch::finish(){
+    for (int i = 0; i < arrayLength; i++) {
+        EV << "interval " << i << ", received " << receivedMsgCount[i]
+                  << " messages" << endl;
     }
 }
 

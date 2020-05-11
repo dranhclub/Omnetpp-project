@@ -46,6 +46,11 @@ void Host::initialize() {
 }
 
 void Host::handleMessage(cMessage *msg) {
+    // Kiểm tra TIMEOUT
+    if (simTime() >= TIMEOUT){
+        return;
+    }
+
     // Hoạt động của Source Queue
     // Tạo tin nhắn theo chu kỳ
     if (strcmp(msg->getName(), "generate") == 0) {
@@ -55,11 +60,8 @@ void Host::handleMessage(cMessage *msg) {
             SQtoEXB();
         }
 
-        if (simTime() < TIMEOUT) {
-            scheduleAt(simTime() + MSG_GEN_INTERVAL, msg);
-        } else {
-            cancelEvent(msg);
-        }
+        scheduleAt(simTime() + MSG_GEN_INTERVAL, msg);
+
     }
 
     // Hoạt động của Exit Buffer
@@ -68,11 +70,7 @@ void Host::handleMessage(cMessage *msg) {
         sendMsg();
         SQtoEXB();
 
-        if (simTime() < TIMEOUT) {
-            scheduleAt(simTime() + CHANNEL_DELAY, msg);
-        } else {
-            cancelEvent(msg);
-        }
+        scheduleAt(simTime() + CHANNEL_DELAY, msg);
     }
 }
 
