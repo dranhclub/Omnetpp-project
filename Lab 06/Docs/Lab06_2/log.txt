@@ -1,0 +1,1218 @@
+** Initializing network
+
+Initializing channel SimpleNetwork.A.out.channel, stage 0
+Initializing channel SimpleNetwork.B.out.channel, stage 0
+Initializing channel SimpleNetwork.C.out.channel, stage 0
+Initializing channel SimpleNetwork.D.out.channel, stage 0
+Initializing module SimpleNetwork, stage 0
+Initializing module SimpleNetwork.A, stage 0
+Initializing module SimpleNetwork.B, stage 0
+Initializing module SimpleNetwork.C, stage 0
+Initializing module SimpleNetwork.D, stage 0
+Initializing module SimpleNetwork.E, stage 0
+** Event #7  t=0  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #12  t=0.005  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #17  t=0.01  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #19  t=0.015  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=8)
+
+INFO:Switch received testMsg id = 0 at port0
+** Event #21  t=0.015  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=9)
+
+INFO:Switch received testMsg id = 0 at port1
+** Event #23  t=0.015  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=10)
+
+INFO:Switch received testMsg id = 0 at port2
+** Event #28  t=0.015  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #34  t=0.02  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #40  t=0.025  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #43  t=0.03  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=11)
+
+INFO:Switch received testMsg id = 1 at port0
+** Event #45  t=0.03  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=12)
+
+INFO:Switch received testMsg id = 1 at port1
+** Event #47  t=0.03  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=13)
+
+INFO:Switch received testMsg id = 1 at port2
+** Event #53  t=0.03  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #60  t=0.035  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #67  t=0.04  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #70  t=0.045  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=17)
+
+INFO:Switch received testMsg id = 2 at port0
+** Event #72  t=0.045  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=18)
+
+INFO:Switch received testMsg id = 2 at port1
+** Event #74  t=0.045  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=19)
+
+INFO:Switch received testMsg id = 2 at port2
+** Event #80  t=0.045  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #87  t=0.05  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #94  t=0.055  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #97  t=0.06  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=23)
+
+INFO:Switch received testMsg id = 3 at port0
+** Event #99  t=0.06  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=24)
+
+INFO:Switch received testMsg id = 3 at port1
+** Event #101  t=0.06  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=25)
+
+INFO:Switch received testMsg id = 3 at port2
+** Event #107  t=0.06  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #114  t=0.065  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #121  t=0.07  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #124  t=0.075  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=29)
+
+INFO:Switch received testMsg id = 4 at port0
+** Event #126  t=0.075  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=30)
+
+INFO:Switch received testMsg id = 4 at port1
+** Event #128  t=0.075  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=31)
+
+INFO:Switch received testMsg id = 4 at port2
+** Event #134  t=0.075  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #141  t=0.08  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #148  t=0.085  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #151  t=0.09  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=35)
+
+INFO:Switch received testMsg id = 5 at port0
+** Event #153  t=0.09  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=36)
+
+INFO:Switch received testMsg id = 5 at port1
+** Event #155  t=0.09  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=37)
+
+INFO:Switch received testMsg id = 5 at port2
+** Event #161  t=0.09  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #168  t=0.095  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #175  t=0.1  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #178  t=0.105  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=41)
+
+INFO:Switch received testMsg id = 6 at port0
+** Event #180  t=0.105  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=42)
+
+INFO:Switch received testMsg id = 6 at port1
+** Event #182  t=0.105  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=43)
+
+INFO:Switch received testMsg id = 6 at port2
+** Event #188  t=0.105  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #195  t=0.11  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #202  t=0.115  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #205  t=0.12  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=47)
+
+INFO:Switch received testMsg id = 7 at port0
+** Event #207  t=0.12  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=48)
+
+INFO:Switch received testMsg id = 7 at port1
+** Event #209  t=0.12  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=49)
+
+INFO:Switch received testMsg id = 7 at port2
+** Event #215  t=0.12  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #222  t=0.125  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #229  t=0.13  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #232  t=0.135  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=53)
+
+INFO:Switch received testMsg id = 8 at port0
+** Event #234  t=0.135  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=54)
+
+INFO:Switch received testMsg id = 8 at port1
+** Event #236  t=0.135  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=55)
+
+INFO:Switch received testMsg id = 8 at port2
+** Event #242  t=0.135  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #249  t=0.14  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #256  t=0.145  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #259  t=0.15  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=59)
+
+INFO:Switch received testMsg id = 9 at port0
+** Event #261  t=0.15  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=60)
+
+INFO:Switch received testMsg id = 9 at port1
+** Event #263  t=0.15  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=61)
+
+INFO:Switch received testMsg id = 9 at port2
+** Event #269  t=0.15  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #276  t=0.155  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #283  t=0.16  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #286  t=0.165  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=65)
+
+INFO:Switch received testMsg id = 10 at port0
+** Event #288  t=0.165  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=66)
+
+INFO:Switch received testMsg id = 10 at port1
+** Event #290  t=0.165  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=67)
+
+INFO:Switch received testMsg id = 10 at port2
+** Event #296  t=0.165  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #303  t=0.17  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #310  t=0.175  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #313  t=0.18  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=71)
+
+INFO:Switch received testMsg id = 11 at port0
+** Event #315  t=0.18  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=72)
+
+INFO:Switch received testMsg id = 11 at port1
+** Event #317  t=0.18  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=73)
+
+INFO:Switch received testMsg id = 11 at port2
+** Event #323  t=0.18  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #330  t=0.185  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #337  t=0.19  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #340  t=0.195  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=77)
+
+INFO:Switch received testMsg id = 12 at port0
+** Event #342  t=0.195  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=78)
+
+INFO:Switch received testMsg id = 12 at port1
+** Event #344  t=0.195  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=79)
+
+INFO:Switch received testMsg id = 12 at port2
+** Event #350  t=0.195  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #357  t=0.2  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #364  t=0.205  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #367  t=0.21  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=83)
+
+INFO:Switch received testMsg id = 13 at port0
+** Event #369  t=0.21  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=84)
+
+INFO:Switch received testMsg id = 13 at port1
+** Event #371  t=0.21  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=85)
+
+INFO:Switch received testMsg id = 13 at port2
+** Event #377  t=0.21  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #384  t=0.215  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #391  t=0.22  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #394  t=0.225  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=89)
+
+INFO:Switch received testMsg id = 14 at port0
+** Event #396  t=0.225  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=90)
+
+INFO:Switch received testMsg id = 14 at port1
+** Event #398  t=0.225  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=91)
+
+INFO:Switch received testMsg id = 14 at port2
+** Event #404  t=0.225  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #411  t=0.23  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #418  t=0.235  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #421  t=0.24  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=95)
+
+INFO:Switch received testMsg id = 15 at port0
+** Event #423  t=0.24  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=96)
+
+INFO:Switch received testMsg id = 15 at port1
+** Event #425  t=0.24  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=97)
+
+INFO:Switch received testMsg id = 15 at port2
+** Event #431  t=0.24  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #438  t=0.245  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #445  t=0.25  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #448  t=0.255  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=101)
+
+INFO:Switch received testMsg id = 16 at port0
+** Event #450  t=0.255  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=102)
+
+INFO:Switch received testMsg id = 16 at port1
+** Event #452  t=0.255  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=103)
+
+INFO:Switch received testMsg id = 16 at port2
+** Event #458  t=0.255  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #465  t=0.26  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #472  t=0.265  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #475  t=0.27  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=107)
+
+INFO:Switch received testMsg id = 17 at port0
+** Event #477  t=0.27  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=108)
+
+INFO:Switch received testMsg id = 17 at port1
+** Event #479  t=0.27  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=109)
+
+INFO:Switch received testMsg id = 17 at port2
+** Event #485  t=0.27  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #492  t=0.275  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #499  t=0.28  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #502  t=0.285  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=113)
+
+INFO:Switch received testMsg id = 18 at port0
+** Event #504  t=0.285  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=114)
+
+INFO:Switch received testMsg id = 18 at port1
+** Event #506  t=0.285  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=115)
+
+INFO:Switch received testMsg id = 18 at port2
+** Event #512  t=0.285  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #519  t=0.29  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #526  t=0.295  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #529  t=0.3  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=119)
+
+INFO:Switch received testMsg id = 19 at port0
+** Event #531  t=0.3  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=120)
+
+INFO:Switch received testMsg id = 19 at port1
+** Event #533  t=0.3  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=121)
+
+INFO:Switch received testMsg id = 19 at port2
+** Event #539  t=0.3  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #546  t=0.305  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #553  t=0.31  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #556  t=0.315  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=125)
+
+INFO:Switch received testMsg id = 20 at port0
+** Event #558  t=0.315  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=126)
+
+INFO:Switch received testMsg id = 20 at port1
+** Event #560  t=0.315  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=127)
+
+INFO:Switch received testMsg id = 20 at port2
+** Event #566  t=0.315  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #573  t=0.32  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #580  t=0.325  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #583  t=0.33  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=131)
+
+INFO:Switch received testMsg id = 21 at port0
+** Event #585  t=0.33  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=132)
+
+INFO:Switch received testMsg id = 21 at port1
+** Event #587  t=0.33  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=133)
+
+INFO:Switch received testMsg id = 21 at port2
+** Event #593  t=0.33  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #600  t=0.335  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #607  t=0.34  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #610  t=0.345  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=137)
+
+INFO:Switch received testMsg id = 22 at port0
+** Event #612  t=0.345  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=138)
+
+INFO:Switch received testMsg id = 22 at port1
+** Event #614  t=0.345  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=139)
+
+INFO:Switch received testMsg id = 22 at port2
+** Event #620  t=0.345  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #627  t=0.35  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #634  t=0.355  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #637  t=0.36  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=143)
+
+INFO:Switch received testMsg id = 23 at port0
+** Event #639  t=0.36  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=144)
+
+INFO:Switch received testMsg id = 23 at port1
+** Event #641  t=0.36  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=145)
+
+INFO:Switch received testMsg id = 23 at port2
+** Event #647  t=0.36  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #654  t=0.365  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #661  t=0.37  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #664  t=0.375  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=149)
+
+INFO:Switch received testMsg id = 24 at port0
+** Event #666  t=0.375  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=150)
+
+INFO:Switch received testMsg id = 24 at port1
+** Event #668  t=0.375  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=151)
+
+INFO:Switch received testMsg id = 24 at port2
+** Event #674  t=0.375  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #681  t=0.38  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #688  t=0.385  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #691  t=0.39  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=155)
+
+INFO:Switch received testMsg id = 25 at port0
+** Event #693  t=0.39  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=156)
+
+INFO:Switch received testMsg id = 25 at port1
+** Event #695  t=0.39  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=157)
+
+INFO:Switch received testMsg id = 25 at port2
+** Event #701  t=0.39  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #708  t=0.395  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #715  t=0.4  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #718  t=0.405  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=161)
+
+INFO:Switch received testMsg id = 26 at port0
+** Event #720  t=0.405  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=162)
+
+INFO:Switch received testMsg id = 26 at port1
+** Event #722  t=0.405  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=163)
+
+INFO:Switch received testMsg id = 26 at port2
+** Event #728  t=0.405  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #735  t=0.41  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #742  t=0.415  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #745  t=0.42  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=167)
+
+INFO:Switch received testMsg id = 27 at port0
+** Event #747  t=0.42  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=168)
+
+INFO:Switch received testMsg id = 27 at port1
+** Event #749  t=0.42  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=169)
+
+INFO:Switch received testMsg id = 27 at port2
+** Event #755  t=0.42  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #762  t=0.425  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #769  t=0.43  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #772  t=0.435  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=173)
+
+INFO:Switch received testMsg id = 28 at port0
+** Event #774  t=0.435  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=174)
+
+INFO:Switch received testMsg id = 28 at port1
+** Event #776  t=0.435  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=175)
+
+INFO:Switch received testMsg id = 28 at port2
+** Event #782  t=0.435  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #789  t=0.44  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #796  t=0.445  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #799  t=0.45  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=179)
+
+INFO:Switch received testMsg id = 29 at port0
+** Event #801  t=0.45  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=180)
+
+INFO:Switch received testMsg id = 29 at port1
+** Event #803  t=0.45  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=181)
+
+INFO:Switch received testMsg id = 29 at port2
+** Event #809  t=0.45  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #816  t=0.455  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #823  t=0.46  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #826  t=0.465  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=185)
+
+INFO:Switch received testMsg id = 30 at port0
+** Event #828  t=0.465  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=186)
+
+INFO:Switch received testMsg id = 30 at port1
+** Event #830  t=0.465  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=187)
+
+INFO:Switch received testMsg id = 30 at port2
+** Event #836  t=0.465  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #843  t=0.47  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #850  t=0.475  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #853  t=0.48  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=191)
+
+INFO:Switch received testMsg id = 31 at port0
+** Event #855  t=0.48  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=192)
+
+INFO:Switch received testMsg id = 31 at port1
+** Event #857  t=0.48  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=193)
+
+INFO:Switch received testMsg id = 31 at port2
+** Event #863  t=0.48  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #870  t=0.485  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #877  t=0.49  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #880  t=0.495  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=197)
+
+INFO:Switch received testMsg id = 32 at port0
+** Event #882  t=0.495  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=198)
+
+INFO:Switch received testMsg id = 32 at port1
+** Event #884  t=0.495  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=199)
+
+INFO:Switch received testMsg id = 32 at port2
+** Event #890  t=0.495  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #897  t=0.5  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #904  t=0.505  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #907  t=0.51  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=203)
+
+INFO:Switch received testMsg id = 33 at port0
+** Event #909  t=0.51  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=204)
+
+INFO:Switch received testMsg id = 33 at port1
+** Event #911  t=0.51  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=205)
+
+INFO:Switch received testMsg id = 33 at port2
+** Event #917  t=0.51  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #924  t=0.515  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #931  t=0.52  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #934  t=0.525  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=209)
+
+INFO:Switch received testMsg id = 34 at port0
+** Event #936  t=0.525  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=210)
+
+INFO:Switch received testMsg id = 34 at port1
+** Event #938  t=0.525  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=211)
+
+INFO:Switch received testMsg id = 34 at port2
+** Event #944  t=0.525  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #951  t=0.53  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #958  t=0.535  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #961  t=0.54  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=215)
+
+INFO:Switch received testMsg id = 35 at port0
+** Event #963  t=0.54  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=216)
+
+INFO:Switch received testMsg id = 35 at port1
+** Event #965  t=0.54  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=217)
+
+INFO:Switch received testMsg id = 35 at port2
+** Event #971  t=0.54  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #978  t=0.545  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #985  t=0.55  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #988  t=0.555  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=221)
+
+INFO:Switch received testMsg id = 36 at port0
+** Event #990  t=0.555  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=222)
+
+INFO:Switch received testMsg id = 36 at port1
+** Event #992  t=0.555  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=223)
+
+INFO:Switch received testMsg id = 36 at port2
+** Event #998  t=0.555  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1005  t=0.56  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1012  t=0.565  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1015  t=0.57  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=227)
+
+INFO:Switch received testMsg id = 37 at port0
+** Event #1017  t=0.57  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=228)
+
+INFO:Switch received testMsg id = 37 at port1
+** Event #1019  t=0.57  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=229)
+
+INFO:Switch received testMsg id = 37 at port2
+** Event #1025  t=0.57  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1032  t=0.575  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1039  t=0.58  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1042  t=0.585  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=233)
+
+INFO:Switch received testMsg id = 38 at port0
+** Event #1044  t=0.585  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=234)
+
+INFO:Switch received testMsg id = 38 at port1
+** Event #1046  t=0.585  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=235)
+
+INFO:Switch received testMsg id = 38 at port2
+** Event #1052  t=0.585  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1059  t=0.59  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1066  t=0.595  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1069  t=0.6  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=239)
+
+INFO:Switch received testMsg id = 39 at port0
+** Event #1071  t=0.6  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=240)
+
+INFO:Switch received testMsg id = 39 at port1
+** Event #1073  t=0.6  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=241)
+
+INFO:Switch received testMsg id = 39 at port2
+** Event #1079  t=0.6  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1086  t=0.605  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1093  t=0.61  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1096  t=0.615  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=245)
+
+INFO:Switch received testMsg id = 40 at port0
+** Event #1098  t=0.615  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=246)
+
+INFO:Switch received testMsg id = 40 at port1
+** Event #1100  t=0.615  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=247)
+
+INFO:Switch received testMsg id = 40 at port2
+** Event #1106  t=0.615  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1113  t=0.62  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1120  t=0.625  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1123  t=0.63  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=251)
+
+INFO:Switch received testMsg id = 41 at port0
+** Event #1125  t=0.63  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=252)
+
+INFO:Switch received testMsg id = 41 at port1
+** Event #1127  t=0.63  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=253)
+
+INFO:Switch received testMsg id = 41 at port2
+** Event #1133  t=0.63  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1140  t=0.635  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1147  t=0.64  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1150  t=0.645  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=257)
+
+INFO:Switch received testMsg id = 42 at port0
+** Event #1152  t=0.645  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=258)
+
+INFO:Switch received testMsg id = 42 at port1
+** Event #1154  t=0.645  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=259)
+
+INFO:Switch received testMsg id = 42 at port2
+** Event #1160  t=0.645  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1167  t=0.65  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1174  t=0.655  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1177  t=0.66  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=263)
+
+INFO:Switch received testMsg id = 43 at port0
+** Event #1179  t=0.66  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=264)
+
+INFO:Switch received testMsg id = 43 at port1
+** Event #1181  t=0.66  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=265)
+
+INFO:Switch received testMsg id = 43 at port2
+** Event #1187  t=0.66  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1194  t=0.665  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1201  t=0.67  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1204  t=0.675  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=269)
+
+INFO:Switch received testMsg id = 44 at port0
+** Event #1206  t=0.675  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=270)
+
+INFO:Switch received testMsg id = 44 at port1
+** Event #1208  t=0.675  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=271)
+
+INFO:Switch received testMsg id = 44 at port2
+** Event #1214  t=0.675  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1221  t=0.68  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1228  t=0.685  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1231  t=0.69  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=275)
+
+INFO:Switch received testMsg id = 45 at port0
+** Event #1233  t=0.69  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=276)
+
+INFO:Switch received testMsg id = 45 at port1
+** Event #1235  t=0.69  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=277)
+
+INFO:Switch received testMsg id = 45 at port2
+** Event #1241  t=0.69  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1248  t=0.695  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1255  t=0.7  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1258  t=0.705  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=281)
+
+INFO:Switch received testMsg id = 46 at port0
+** Event #1260  t=0.705  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=282)
+
+INFO:Switch received testMsg id = 46 at port1
+** Event #1262  t=0.705  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=283)
+
+INFO:Switch received testMsg id = 46 at port2
+** Event #1268  t=0.705  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1275  t=0.71  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1282  t=0.715  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1285  t=0.72  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=287)
+
+INFO:Switch received testMsg id = 47 at port0
+** Event #1287  t=0.72  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=288)
+
+INFO:Switch received testMsg id = 47 at port1
+** Event #1289  t=0.72  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=289)
+
+INFO:Switch received testMsg id = 47 at port2
+** Event #1295  t=0.72  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1302  t=0.725  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1309  t=0.73  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1312  t=0.735  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=293)
+
+INFO:Switch received testMsg id = 48 at port0
+** Event #1314  t=0.735  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=294)
+
+INFO:Switch received testMsg id = 48 at port1
+** Event #1316  t=0.735  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=295)
+
+INFO:Switch received testMsg id = 48 at port2
+** Event #1322  t=0.735  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1329  t=0.74  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1336  t=0.745  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1339  t=0.75  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=299)
+
+INFO:Switch received testMsg id = 49 at port0
+** Event #1341  t=0.75  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=300)
+
+INFO:Switch received testMsg id = 49 at port1
+** Event #1343  t=0.75  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=301)
+
+INFO:Switch received testMsg id = 49 at port2
+** Event #1349  t=0.75  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1356  t=0.755  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1363  t=0.76  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1366  t=0.765  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=305)
+
+INFO:Switch received testMsg id = 50 at port0
+** Event #1368  t=0.765  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=306)
+
+INFO:Switch received testMsg id = 50 at port1
+** Event #1370  t=0.765  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=307)
+
+INFO:Switch received testMsg id = 50 at port2
+** Event #1376  t=0.765  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1383  t=0.77  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1390  t=0.775  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1393  t=0.78  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=311)
+
+INFO:Switch received testMsg id = 51 at port0
+** Event #1395  t=0.78  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=312)
+
+INFO:Switch received testMsg id = 51 at port1
+** Event #1397  t=0.78  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=313)
+
+INFO:Switch received testMsg id = 51 at port2
+** Event #1403  t=0.78  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1410  t=0.785  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1417  t=0.79  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1420  t=0.795  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=317)
+
+INFO:Switch received testMsg id = 52 at port0
+** Event #1422  t=0.795  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=318)
+
+INFO:Switch received testMsg id = 52 at port1
+** Event #1424  t=0.795  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=319)
+
+INFO:Switch received testMsg id = 52 at port2
+** Event #1430  t=0.795  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1437  t=0.8  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1444  t=0.805  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1447  t=0.81  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=323)
+
+INFO:Switch received testMsg id = 53 at port0
+** Event #1449  t=0.81  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=324)
+
+INFO:Switch received testMsg id = 53 at port1
+** Event #1451  t=0.81  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=325)
+
+INFO:Switch received testMsg id = 53 at port2
+** Event #1457  t=0.81  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1464  t=0.815  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1471  t=0.82  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1474  t=0.825  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=329)
+
+INFO:Switch received testMsg id = 54 at port0
+** Event #1476  t=0.825  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=330)
+
+INFO:Switch received testMsg id = 54 at port1
+** Event #1478  t=0.825  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=331)
+
+INFO:Switch received testMsg id = 54 at port2
+** Event #1484  t=0.825  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1491  t=0.83  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1498  t=0.835  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1501  t=0.84  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=335)
+
+INFO:Switch received testMsg id = 55 at port0
+** Event #1503  t=0.84  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=336)
+
+INFO:Switch received testMsg id = 55 at port1
+** Event #1505  t=0.84  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=337)
+
+INFO:Switch received testMsg id = 55 at port2
+** Event #1511  t=0.84  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1518  t=0.845  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1525  t=0.85  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1528  t=0.855  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=341)
+
+INFO:Switch received testMsg id = 56 at port0
+** Event #1530  t=0.855  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=342)
+
+INFO:Switch received testMsg id = 56 at port1
+** Event #1532  t=0.855  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=343)
+
+INFO:Switch received testMsg id = 56 at port2
+** Event #1538  t=0.855  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1545  t=0.86  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1552  t=0.865  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1555  t=0.87  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=347)
+
+INFO:Switch received testMsg id = 57 at port0
+** Event #1557  t=0.87  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=348)
+
+INFO:Switch received testMsg id = 57 at port1
+** Event #1559  t=0.87  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=349)
+
+INFO:Switch received testMsg id = 57 at port2
+** Event #1565  t=0.87  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1572  t=0.875  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1579  t=0.88  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1582  t=0.885  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=353)
+
+INFO:Switch received testMsg id = 58 at port0
+** Event #1584  t=0.885  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=354)
+
+INFO:Switch received testMsg id = 58 at port1
+** Event #1586  t=0.885  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=355)
+
+INFO:Switch received testMsg id = 58 at port2
+** Event #1592  t=0.885  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1599  t=0.89  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1606  t=0.895  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1609  t=0.9  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=359)
+
+INFO:Switch received testMsg id = 59 at port0
+** Event #1611  t=0.9  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=360)
+
+INFO:Switch received testMsg id = 59 at port1
+** Event #1613  t=0.9  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=361)
+
+INFO:Switch received testMsg id = 59 at port2
+** Event #1619  t=0.9  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1626  t=0.905  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1633  t=0.91  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1636  t=0.915  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=365)
+
+INFO:Switch received testMsg id = 60 at port0
+** Event #1638  t=0.915  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=366)
+
+INFO:Switch received testMsg id = 60 at port1
+** Event #1640  t=0.915  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=367)
+
+INFO:Switch received testMsg id = 60 at port2
+** Event #1646  t=0.915  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1653  t=0.92  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1660  t=0.925  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1663  t=0.93  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=371)
+
+INFO:Switch received testMsg id = 61 at port0
+** Event #1665  t=0.93  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=372)
+
+INFO:Switch received testMsg id = 61 at port1
+** Event #1667  t=0.93  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=373)
+
+INFO:Switch received testMsg id = 61 at port2
+** Event #1673  t=0.93  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1680  t=0.935  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1687  t=0.94  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1690  t=0.945  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=377)
+
+INFO:Switch received testMsg id = 62 at port0
+** Event #1692  t=0.945  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=378)
+
+INFO:Switch received testMsg id = 62 at port1
+** Event #1694  t=0.945  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=379)
+
+INFO:Switch received testMsg id = 62 at port2
+** Event #1700  t=0.945  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1707  t=0.95  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1714  t=0.955  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1717  t=0.96  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=383)
+
+INFO:Switch received testMsg id = 63 at port0
+** Event #1719  t=0.96  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=384)
+
+INFO:Switch received testMsg id = 63 at port1
+** Event #1721  t=0.96  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=385)
+
+INFO:Switch received testMsg id = 63 at port2
+** Event #1727  t=0.96  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1734  t=0.965  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1741  t=0.97  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1744  t=0.975  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=389)
+
+INFO:Switch received testMsg id = 64 at port0
+** Event #1746  t=0.975  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=390)
+
+INFO:Switch received testMsg id = 64 at port1
+** Event #1748  t=0.975  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=391)
+
+INFO:Switch received testMsg id = 64 at port2
+** Event #1754  t=0.975  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1761  t=0.98  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1768  t=0.985  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1771  t=0.99  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=395)
+
+INFO:Switch received testMsg id = 65 at port0
+** Event #1773  t=0.99  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=396)
+
+INFO:Switch received testMsg id = 65 at port1
+** Event #1775  t=0.99  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=397)
+
+INFO:Switch received testMsg id = 65 at port2
+** Event #1781  t=0.99  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1788  t=0.995  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1795  t=1  SimpleNetwork.D (Switch, id=5)  on selfmsg nextPeriod (omnetpp::cMessage, id=6)
+
+** Event #1797  t=1.005  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=401)
+
+** Event #1799  t=1.005  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=402)
+
+** Event #1801  t=1.005  SimpleNetwork.D (Switch, id=5)  on testMsg (omnetpp::cMessage, id=403)
+
+<!> No more events, simulation completed -- at t=1.01s, event #1804
+
+** Calling finish() methods of modules
+
+INFO:interval 0, received 0 messages
+INFO:interval 1, received 0 messages
+INFO:interval 2, received 0 messages
+INFO:interval 3, received 0 messages
+INFO:interval 4, received 0 messages
+INFO:interval 5, received 0 messages
+INFO:interval 6, received 1 messages
+INFO:interval 7, received 1 messages
+INFO:interval 8, received 1 messages
+INFO:interval 9, received 1 messages
+INFO:interval 10, received 1 messages
+INFO:interval 11, received 1 messages
+INFO:interval 12, received 1 messages
+INFO:interval 13, received 1 messages
+INFO:interval 14, received 1 messages
+INFO:interval 15, received 1 messages
+INFO:interval 16, received 1 messages
+INFO:interval 17, received 1 messages
+INFO:interval 18, received 1 messages
+INFO:interval 19, received 1 messages
+INFO:interval 20, received 1 messages
+INFO:interval 21, received 1 messages
+INFO:interval 22, received 1 messages
+INFO:interval 23, received 1 messages
+INFO:interval 24, received 1 messages
+INFO:interval 25, received 1 messages
+INFO:interval 26, received 1 messages
+INFO:interval 27, received 1 messages
+INFO:interval 28, received 1 messages
+INFO:interval 29, received 1 messages
+INFO:interval 30, received 1 messages
+INFO:interval 31, received 1 messages
+INFO:interval 32, received 1 messages
+INFO:interval 33, received 1 messages
+INFO:interval 34, received 1 messages
+INFO:interval 35, received 1 messages
+INFO:interval 36, received 1 messages
+INFO:interval 37, received 1 messages
+INFO:interval 38, received 1 messages
+INFO:interval 39, received 1 messages
+INFO:interval 40, received 1 messages
+INFO:interval 41, received 1 messages
+INFO:interval 42, received 1 messages
+INFO:interval 43, received 1 messages
+INFO:interval 44, received 1 messages
+INFO:interval 45, received 1 messages
+INFO:interval 46, received 1 messages
+INFO:interval 47, received 1 messages
+INFO:interval 48, received 1 messages
+INFO:interval 49, received 1 messages
+INFO:interval 50, received 1 messages
+INFO:interval 51, received 1 messages
+INFO:interval 52, received 1 messages
+INFO:interval 53, received 1 messages
+INFO:interval 54, received 1 messages
+INFO:interval 55, received 1 messages
+INFO:interval 56, received 1 messages
+INFO:interval 57, received 1 messages
+INFO:interval 58, received 1 messages
+INFO:interval 59, received 1 messages
+INFO:interval 60, received 1 messages
+INFO:interval 61, received 1 messages
+INFO:interval 62, received 1 messages
+INFO:interval 63, received 1 messages
+INFO:interval 64, received 1 messages
+INFO:interval 65, received 1 messages
+INFO:interval 66, received 1 messages
+INFO:interval 67, received 1 messages
+INFO:interval 68, received 1 messages
+INFO:interval 69, received 1 messages
+INFO:interval 70, received 1 messages
+INFO:interval 71, received 1 messages
+INFO:interval 72, received 1 messages
+INFO:interval 73, received 1 messages
+INFO:interval 74, received 1 messages
+INFO:interval 75, received 1 messages
+INFO:interval 76, received 1 messages
+INFO:interval 77, received 1 messages
+INFO:interval 78, received 1 messages
+INFO:interval 79, received 1 messages
+INFO:interval 80, received 1 messages
+INFO:interval 81, received 1 messages
+INFO:interval 82, received 1 messages
+INFO:interval 83, received 1 messages
+INFO:interval 84, received 1 messages
+INFO:interval 85, received 1 messages
+INFO:interval 86, received 1 messages
+INFO:interval 87, received 1 messages
+INFO:interval 88, received 1 messages
+INFO:interval 89, received 1 messages
+INFO:interval 90, received 1 messages
+INFO:interval 91, received 1 messages
+INFO:interval 92, received 1 messages
+INFO:interval 93, received 1 messages
+INFO:interval 94, received 1 messages
+INFO:interval 95, received 1 messages
+INFO:interval 96, received 1 messages
+INFO:interval 97, received 1 messages
+INFO:interval 98, received 1 messages
+INFO:interval 99, received 1 messages
+INFO:interval 100, received 1 messages
+INFO:interval 101, received 1 messages
+INFO:interval 102, received 1 messages
+INFO:interval 103, received 1 messages
+INFO:interval 104, received 1 messages
+INFO:interval 105, received 1 messages
+INFO:interval 106, received 1 messages
+INFO:interval 107, received 1 messages
+INFO:interval 108, received 1 messages
+INFO:interval 109, received 1 messages
+INFO:interval 110, received 1 messages
+INFO:interval 111, received 1 messages
+INFO:interval 112, received 1 messages
+INFO:interval 113, received 1 messages
+INFO:interval 114, received 1 messages
+INFO:interval 115, received 1 messages
+INFO:interval 116, received 1 messages
+INFO:interval 117, received 1 messages
+INFO:interval 118, received 1 messages
+INFO:interval 119, received 1 messages
+INFO:interval 120, received 1 messages
+INFO:interval 121, received 1 messages
+INFO:interval 122, received 1 messages
+INFO:interval 123, received 1 messages
+INFO:interval 124, received 1 messages
+INFO:interval 125, received 1 messages
+INFO:interval 126, received 1 messages
+INFO:interval 127, received 1 messages
+INFO:interval 128, received 1 messages
+INFO:interval 129, received 1 messages
+INFO:interval 130, received 1 messages
+INFO:interval 131, received 1 messages
+INFO:interval 132, received 1 messages
+INFO:interval 133, received 1 messages
+INFO:interval 134, received 1 messages
+INFO:interval 135, received 1 messages
+INFO:interval 136, received 1 messages
+INFO:interval 137, received 1 messages
+INFO:interval 138, received 1 messages
+INFO:interval 139, received 1 messages
+INFO:interval 140, received 1 messages
+INFO:interval 141, received 1 messages
+INFO:interval 142, received 1 messages
+INFO:interval 143, received 1 messages
+INFO:interval 144, received 1 messages
+INFO:interval 145, received 1 messages
+INFO:interval 146, received 1 messages
+INFO:interval 147, received 1 messages
+INFO:interval 148, received 1 messages
+INFO:interval 149, received 1 messages
+INFO:interval 150, received 1 messages
+INFO:interval 151, received 1 messages
+INFO:interval 152, received 1 messages
+INFO:interval 153, received 1 messages
+INFO:interval 154, received 1 messages
+INFO:interval 155, received 1 messages
+INFO:interval 156, received 1 messages
+INFO:interval 157, received 1 messages
+INFO:interval 158, received 1 messages
+INFO:interval 159, received 1 messages
+INFO:interval 160, received 1 messages
+INFO:interval 161, received 1 messages
+INFO:interval 162, received 1 messages
+INFO:interval 163, received 1 messages
+INFO:interval 164, received 1 messages
+INFO:interval 165, received 1 messages
+INFO:interval 166, received 1 messages
+INFO:interval 167, received 1 messages
+INFO:interval 168, received 1 messages
+INFO:interval 169, received 1 messages
+INFO:interval 170, received 1 messages
+INFO:interval 171, received 1 messages
+INFO:interval 172, received 1 messages
+INFO:interval 173, received 1 messages
+INFO:interval 174, received 1 messages
+INFO:interval 175, received 1 messages
+INFO:interval 176, received 1 messages
+INFO:interval 177, received 1 messages
+INFO:interval 178, received 1 messages
+INFO:interval 179, received 1 messages
+INFO:interval 180, received 1 messages
+INFO:interval 181, received 1 messages
+INFO:interval 182, received 1 messages
+INFO:interval 183, received 1 messages
+INFO:interval 184, received 1 messages
+INFO:interval 185, received 1 messages
+INFO:interval 186, received 1 messages
+INFO:interval 187, received 1 messages
+INFO:interval 188, received 1 messages
+INFO:interval 189, received 1 messages
+INFO:interval 190, received 1 messages
+INFO:interval 191, received 1 messages
+INFO:interval 192, received 1 messages
+INFO:interval 193, received 1 messages
+INFO:interval 194, received 1 messages
+INFO:interval 195, received 1 messages
+INFO:interval 196, received 1 messages
+INFO:interval 197, received 1 messages
+INFO:interval 198, received 1 messages
+INFO:interval 199, received 1 messages
