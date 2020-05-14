@@ -7,15 +7,13 @@
 using namespace omnetpp;
 using namespace std;
 
-class Host: public cSimpleModule {
+class SendingHost: public cSimpleModule {
 private:
-
     // constant
     int EXB_SIZE;
     double TIMEOUT;
     double MSG_GEN_TIME_PERIOD;
     double CHANNEL_DELAY;
-    bool isSender;
 
     int lastestMsgId = -1;
 
@@ -40,29 +38,26 @@ public:
     void incNumSpacesOfNextENB();
 };
 
-Define_Module(Host);
+Define_Module(SendingHost);
 
-void Host::initialize() {
+void SendingHost::initialize() {
     // Thiết lập các hằng số
     MSG_GEN_TIME_PERIOD =
             getParentModule()->par("MSG_GEN_TIME_PERIOD").doubleValue();
     TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
     EXB_SIZE = par("EXB_SIZE").intValue();
     CHANNEL_DELAY =
-            ((cDelayChannel*) gate("port$o")->getChannel())->getDelay().dbl();
-    isSender = par("isSender").boolValue();
+            ((cDelayChannel*) gate("out")->getChannel())->getDelay().dbl();
 
     numSpacesOfNextENB = getParentModule()->getModuleByPath(".D")->par("ENB_SIZE").intValue();
 
-    if (isSender){
-        // Bắt đầu quá trình tạo các gói tin
-        scheduleAt(0, new cMessage("generate"));
-        // Bắt đầu quá trình gửi các gói tin
-        scheduleAt(0, new cMessage("send"));
-    }
+    // Bắt đầu quá trình tạo các gói tin
+    scheduleAt(0, new cMessage("generate"));
+    // Bắt đầu quá trình gửi các gói tin
+    scheduleAt(0, new cMessage("send"));
 }
 
-void Host::handleMessage(cMessage *msg) {
+void SendingHost::handleMessage(cMessage *msg) {
     // Kiểm tra TIMEOUT
     if (simTime() >= TIMEOUT) {
         return;
@@ -85,6 +80,8 @@ void Host::handleMessage(cMessage *msg) {
     // Gửi tin nhắn theo chu kỳ
     if (strcmp(msg->getName(), "send") == 0) {
         sendMsg();
+        // Giảm số chỗ trống của ENB kế tiếp đi 1
+        numSpacesOfNextENB--;
         SQtoEXB();
 
         scheduleAt(simTime() + CHANNEL_DELAY, msg);
@@ -95,14 +92,15 @@ void Host::handleMessage(cMessage *msg) {
         incNumSpacesOfNextENB();
         delete msg;
     }
+
 }
 
-void Host::generateMessage() {
+void SendingHost::generateMessage() {
     SQ.push(++lastestMsgId);
     EV << "message generated" << endl;
 }
 
-void Host::SQtoEXB() {
+void SendingHost::SQtoEXB() {
     if (!SQ.empty()) {
         int msgId = SQ.front();
         SQ.pop();
@@ -110,7 +108,7 @@ void Host::SQtoEXB() {
     }
 }
 
-void Host::sendMsg() {
+void SendingHost::sendMsg() {
     if (!EXB.empty() && numSpacesOfNextENB > 0) {
         // Lấy ra id gói tin chuẩn bị gửi
         int sentMsgId = EXB.front();
@@ -125,13 +123,10 @@ void Host::sendMsg() {
         sentMsg->addPar(msgParam);
 
         // Gửi
-        send(sentMsg, "port$o");
-
-        // Giảm số chỗ trống của ENB kế tiếp đi 1
-        numSpacesOfNextENB--;
+        send(sentMsg, "out");
     }
 }
 
-void Host::incNumSpacesOfNextENB() {
+void SendingHost::incNumSpacesOfNextENB() {
     numSpacesOfNextENB++;
 }

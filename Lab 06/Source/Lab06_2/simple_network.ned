@@ -1,10 +1,17 @@
-simple Host
+simple SendingHost
 {
     parameters:
         int EXB_SIZE = 2; // Exit buffer size
-        bool isSender;
     gates:
-        inout port;
+        input in @directIn;
+        output out;
+}
+
+simple ReceivingHost
+{
+    parameters:
+    gates:
+        input in;
 }
 
 simple Switch
@@ -14,7 +21,8 @@ simple Switch
         int ENB_SIZE = 2; // Entrance buffer size
         double OPERATION_TIME_PERIOD = 0.005;
     gates:
-		inout port[];
+		input in[];
+		output out;
 }
 
 network SimpleNetwork
@@ -31,28 +39,24 @@ network SimpleNetwork
             delay = 15ms;
         }
     submodules:
-        A: Host {
+        A: SendingHost {
             @display("i=abstract/server;p=38.22,29.82");
-            isSender = true;
         }
-        B: Host {
+        B: SendingHost {
             @display("i=abstract/server;p=38.22,68.46");
-            isSender = true;
         }
-        C: Host {
+        C: SendingHost {
             @display("i=abstract/server;p=38.22,102.48");
-            isSender = true;
         }
         D: Switch {
             @display("p=116.340004,68.46;i=abstract/switch");
         }
-        E: Host {
+        E: ReceivingHost {
             @display("i=abstract/server;p=179.76,68.46");
-            isSender = false;
         }
     connections:
-		A.port <--> Channel <--> D.port++;
-		B.port <--> Channel <--> D.port++;
-		C.port <--> Channel <--> D.port++;
-		E.port <--> Channel <--> D.port++;
+		A.out --> Channel --> D.in++;
+		B.out --> Channel --> D.in++;
+		C.out --> Channel --> D.in++;
+		D.out --> Channel --> E.in;
 }
