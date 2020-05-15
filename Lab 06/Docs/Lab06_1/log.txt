@@ -1,0 +1,1550 @@
+** Initializing network
+
+Initializing channel SimpleNetwork.host.out.channel, stage 0
+Initializing module SimpleNetwork, stage 0
+Initializing module SimpleNetwork.host, stage 0
+Initializing module SimpleNetwork.switch, stage 0
+** Event #1  t=0  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #2  t=0  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #3  t=0  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #4  t=0.005  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #5  t=0.005  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #6  t=0.01  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #7  t=0.01  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #8  t=0.015  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=3)
+
+INFO:Received testMsg
+** Event #9  t=0.015  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #10  t=0.015  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #11  t=0.015  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #12  t=0.02  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #13  t=0.02  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #14  t=0.025  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #15  t=0.025  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #16  t=0.03  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=4)
+
+INFO:Received testMsg
+** Event #17  t=0.03  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #18  t=0.03  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #19  t=0.03  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #20  t=0.035  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #21  t=0.035  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #22  t=0.04  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #23  t=0.04  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #24  t=0.045  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=5)
+
+INFO:Received testMsg
+** Event #25  t=0.045  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #26  t=0.045  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #27  t=0.045  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #28  t=0.05  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #29  t=0.05  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #30  t=0.055  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #31  t=0.055  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #32  t=0.06  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=6)
+
+INFO:Received testMsg
+** Event #33  t=0.06  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #34  t=0.06  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #35  t=0.06  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #36  t=0.065  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #37  t=0.065  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #38  t=0.07  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #39  t=0.07  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #40  t=0.075  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=7)
+
+INFO:Received testMsg
+** Event #41  t=0.075  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #42  t=0.075  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #43  t=0.075  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #44  t=0.08  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #45  t=0.08  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #46  t=0.085  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #47  t=0.085  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #48  t=0.09  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=8)
+
+INFO:Received testMsg
+** Event #49  t=0.09  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #50  t=0.09  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #51  t=0.09  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #52  t=0.095  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #53  t=0.095  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #54  t=0.1  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #55  t=0.1  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #56  t=0.105  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=9)
+
+INFO:Received testMsg
+** Event #57  t=0.105  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #58  t=0.105  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #59  t=0.105  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #60  t=0.11  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #61  t=0.11  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #62  t=0.115  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #63  t=0.115  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #64  t=0.12  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=10)
+
+INFO:Received testMsg
+** Event #65  t=0.12  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #66  t=0.12  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #67  t=0.12  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #68  t=0.125  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #69  t=0.125  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #70  t=0.13  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #71  t=0.13  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #72  t=0.135  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=11)
+
+INFO:Received testMsg
+** Event #73  t=0.135  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #74  t=0.135  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #75  t=0.135  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #76  t=0.14  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #77  t=0.14  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #78  t=0.145  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #79  t=0.145  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #80  t=0.15  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=12)
+
+INFO:Received testMsg
+** Event #81  t=0.15  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #82  t=0.15  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #83  t=0.15  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #84  t=0.155  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #85  t=0.155  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #86  t=0.16  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #87  t=0.16  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #88  t=0.165  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=13)
+
+INFO:Received testMsg
+** Event #89  t=0.165  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #90  t=0.165  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #91  t=0.165  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #92  t=0.17  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #93  t=0.17  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #94  t=0.175  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #95  t=0.175  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #96  t=0.18  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=14)
+
+INFO:Received testMsg
+** Event #97  t=0.18  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #98  t=0.18  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #99  t=0.18  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #100  t=0.185  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #101  t=0.185  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #102  t=0.19  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #103  t=0.19  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #104  t=0.195  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=15)
+
+INFO:Received testMsg
+** Event #105  t=0.195  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #106  t=0.195  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #107  t=0.195  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #108  t=0.2  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #109  t=0.2  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #110  t=0.205  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #111  t=0.205  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #112  t=0.21  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=16)
+
+INFO:Received testMsg
+** Event #113  t=0.21  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #114  t=0.21  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #115  t=0.21  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #116  t=0.215  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #117  t=0.215  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #118  t=0.22  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #119  t=0.22  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #120  t=0.225  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=17)
+
+INFO:Received testMsg
+** Event #121  t=0.225  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #122  t=0.225  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #123  t=0.225  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #124  t=0.23  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #125  t=0.23  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #126  t=0.235  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #127  t=0.235  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #128  t=0.24  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=18)
+
+INFO:Received testMsg
+** Event #129  t=0.24  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #130  t=0.24  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #131  t=0.24  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #132  t=0.245  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #133  t=0.245  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #134  t=0.25  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #135  t=0.25  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #136  t=0.255  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=19)
+
+INFO:Received testMsg
+** Event #137  t=0.255  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #138  t=0.255  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #139  t=0.255  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #140  t=0.26  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #141  t=0.26  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #142  t=0.265  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #143  t=0.265  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #144  t=0.27  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=20)
+
+INFO:Received testMsg
+** Event #145  t=0.27  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #146  t=0.27  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #147  t=0.27  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #148  t=0.275  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #149  t=0.275  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #150  t=0.28  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #151  t=0.28  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #152  t=0.285  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=21)
+
+INFO:Received testMsg
+** Event #153  t=0.285  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #154  t=0.285  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #155  t=0.285  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #156  t=0.29  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #157  t=0.29  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #158  t=0.295  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #159  t=0.295  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #160  t=0.3  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=22)
+
+INFO:Received testMsg
+** Event #161  t=0.3  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #162  t=0.3  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #163  t=0.3  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #164  t=0.305  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #165  t=0.305  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #166  t=0.31  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #167  t=0.31  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #168  t=0.315  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=23)
+
+INFO:Received testMsg
+** Event #169  t=0.315  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #170  t=0.315  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #171  t=0.315  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #172  t=0.32  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #173  t=0.32  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #174  t=0.325  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #175  t=0.325  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #176  t=0.33  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=24)
+
+INFO:Received testMsg
+** Event #177  t=0.33  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #178  t=0.33  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #179  t=0.33  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #180  t=0.335  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #181  t=0.335  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #182  t=0.34  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #183  t=0.34  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #184  t=0.345  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=25)
+
+INFO:Received testMsg
+** Event #185  t=0.345  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #186  t=0.345  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #187  t=0.345  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #188  t=0.35  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #189  t=0.35  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #190  t=0.355  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #191  t=0.355  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #192  t=0.36  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=26)
+
+INFO:Received testMsg
+** Event #193  t=0.36  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #194  t=0.36  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #195  t=0.36  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #196  t=0.365  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #197  t=0.365  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #198  t=0.37  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #199  t=0.37  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #200  t=0.375  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=27)
+
+INFO:Received testMsg
+** Event #201  t=0.375  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #202  t=0.375  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #203  t=0.375  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #204  t=0.38  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #205  t=0.38  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #206  t=0.385  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #207  t=0.385  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #208  t=0.39  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=28)
+
+INFO:Received testMsg
+** Event #209  t=0.39  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #210  t=0.39  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #211  t=0.39  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #212  t=0.395  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #213  t=0.395  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #214  t=0.4  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #215  t=0.4  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #216  t=0.405  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=29)
+
+INFO:Received testMsg
+** Event #217  t=0.405  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #218  t=0.405  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #219  t=0.405  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #220  t=0.41  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #221  t=0.41  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #222  t=0.415  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #223  t=0.415  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #224  t=0.42  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=30)
+
+INFO:Received testMsg
+** Event #225  t=0.42  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #226  t=0.42  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #227  t=0.42  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #228  t=0.425  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #229  t=0.425  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #230  t=0.43  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #231  t=0.43  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #232  t=0.435  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=31)
+
+INFO:Received testMsg
+** Event #233  t=0.435  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #234  t=0.435  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #235  t=0.435  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #236  t=0.44  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #237  t=0.44  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #238  t=0.445  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #239  t=0.445  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #240  t=0.45  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=32)
+
+INFO:Received testMsg
+** Event #241  t=0.45  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #242  t=0.45  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #243  t=0.45  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #244  t=0.455  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #245  t=0.455  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #246  t=0.46  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #247  t=0.46  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #248  t=0.465  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=33)
+
+INFO:Received testMsg
+** Event #249  t=0.465  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #250  t=0.465  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #251  t=0.465  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #252  t=0.47  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #253  t=0.47  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #254  t=0.475  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #255  t=0.475  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #256  t=0.48  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=34)
+
+INFO:Received testMsg
+** Event #257  t=0.48  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #258  t=0.48  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #259  t=0.48  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #260  t=0.485  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #261  t=0.485  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #262  t=0.49  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #263  t=0.49  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #264  t=0.495  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=35)
+
+INFO:Received testMsg
+** Event #265  t=0.495  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #266  t=0.495  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #267  t=0.495  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #268  t=0.5  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #269  t=0.5  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #270  t=0.505  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #271  t=0.505  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #272  t=0.51  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=36)
+
+INFO:Received testMsg
+** Event #273  t=0.51  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #274  t=0.51  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #275  t=0.51  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #276  t=0.515  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #277  t=0.515  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #278  t=0.52  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #279  t=0.52  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #280  t=0.525  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=37)
+
+INFO:Received testMsg
+** Event #281  t=0.525  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #282  t=0.525  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #283  t=0.525  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #284  t=0.53  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #285  t=0.53  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #286  t=0.535  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #287  t=0.535  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #288  t=0.54  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=38)
+
+INFO:Received testMsg
+** Event #289  t=0.54  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #290  t=0.54  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #291  t=0.54  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #292  t=0.545  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #293  t=0.545  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #294  t=0.55  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #295  t=0.55  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #296  t=0.555  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=39)
+
+INFO:Received testMsg
+** Event #297  t=0.555  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #298  t=0.555  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #299  t=0.555  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #300  t=0.56  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #301  t=0.56  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #302  t=0.565  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #303  t=0.565  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #304  t=0.57  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=40)
+
+INFO:Received testMsg
+** Event #305  t=0.57  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #306  t=0.57  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #307  t=0.57  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #308  t=0.575  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #309  t=0.575  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #310  t=0.58  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #311  t=0.58  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #312  t=0.585  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=41)
+
+INFO:Received testMsg
+** Event #313  t=0.585  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #314  t=0.585  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #315  t=0.585  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #316  t=0.59  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #317  t=0.59  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #318  t=0.595  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #319  t=0.595  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #320  t=0.6  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=42)
+
+INFO:Received testMsg
+** Event #321  t=0.6  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #322  t=0.6  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #323  t=0.6  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #324  t=0.605  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #325  t=0.605  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #326  t=0.61  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #327  t=0.61  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #328  t=0.615  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=43)
+
+INFO:Received testMsg
+** Event #329  t=0.615  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #330  t=0.615  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #331  t=0.615  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #332  t=0.62  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #333  t=0.62  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #334  t=0.625  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #335  t=0.625  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #336  t=0.63  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=44)
+
+INFO:Received testMsg
+** Event #337  t=0.63  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #338  t=0.63  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #339  t=0.63  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #340  t=0.635  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #341  t=0.635  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #342  t=0.64  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #343  t=0.64  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #344  t=0.645  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=45)
+
+INFO:Received testMsg
+** Event #345  t=0.645  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #346  t=0.645  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #347  t=0.645  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #348  t=0.65  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #349  t=0.65  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #350  t=0.655  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #351  t=0.655  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #352  t=0.66  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=46)
+
+INFO:Received testMsg
+** Event #353  t=0.66  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #354  t=0.66  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #355  t=0.66  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #356  t=0.665  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #357  t=0.665  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #358  t=0.67  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #359  t=0.67  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #360  t=0.675  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=47)
+
+INFO:Received testMsg
+** Event #361  t=0.675  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #362  t=0.675  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #363  t=0.675  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #364  t=0.68  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #365  t=0.68  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #366  t=0.685  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #367  t=0.685  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #368  t=0.69  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=48)
+
+INFO:Received testMsg
+** Event #369  t=0.69  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #370  t=0.69  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #371  t=0.69  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #372  t=0.695  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #373  t=0.695  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #374  t=0.7  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #375  t=0.7  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #376  t=0.705  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=49)
+
+INFO:Received testMsg
+** Event #377  t=0.705  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #378  t=0.705  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #379  t=0.705  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #380  t=0.71  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #381  t=0.71  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #382  t=0.715  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #383  t=0.715  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #384  t=0.72  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=50)
+
+INFO:Received testMsg
+** Event #385  t=0.72  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #386  t=0.72  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #387  t=0.72  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #388  t=0.725  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #389  t=0.725  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #390  t=0.73  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #391  t=0.73  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #392  t=0.735  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=51)
+
+INFO:Received testMsg
+** Event #393  t=0.735  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #394  t=0.735  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #395  t=0.735  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #396  t=0.74  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #397  t=0.74  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #398  t=0.745  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #399  t=0.745  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #400  t=0.75  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=52)
+
+INFO:Received testMsg
+** Event #401  t=0.75  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #402  t=0.75  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #403  t=0.75  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #404  t=0.755  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #405  t=0.755  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #406  t=0.76  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #407  t=0.76  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #408  t=0.765  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=53)
+
+INFO:Received testMsg
+** Event #409  t=0.765  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #410  t=0.765  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #411  t=0.765  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #412  t=0.77  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #413  t=0.77  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #414  t=0.775  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #415  t=0.775  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #416  t=0.78  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=54)
+
+INFO:Received testMsg
+** Event #417  t=0.78  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #418  t=0.78  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #419  t=0.78  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #420  t=0.785  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #421  t=0.785  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #422  t=0.79  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #423  t=0.79  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #424  t=0.795  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=55)
+
+INFO:Received testMsg
+** Event #425  t=0.795  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #426  t=0.795  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #427  t=0.795  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #428  t=0.8  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #429  t=0.8  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #430  t=0.805  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #431  t=0.805  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #432  t=0.81  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=56)
+
+INFO:Received testMsg
+** Event #433  t=0.81  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #434  t=0.81  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #435  t=0.81  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #436  t=0.815  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #437  t=0.815  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #438  t=0.82  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #439  t=0.82  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #440  t=0.825  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=57)
+
+INFO:Received testMsg
+** Event #441  t=0.825  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #442  t=0.825  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #443  t=0.825  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #444  t=0.83  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #445  t=0.83  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #446  t=0.835  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #447  t=0.835  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #448  t=0.84  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=58)
+
+INFO:Received testMsg
+** Event #449  t=0.84  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #450  t=0.84  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #451  t=0.84  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #452  t=0.845  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #453  t=0.845  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #454  t=0.85  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #455  t=0.85  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #456  t=0.855  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=59)
+
+INFO:Received testMsg
+** Event #457  t=0.855  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #458  t=0.855  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #459  t=0.855  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #460  t=0.86  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #461  t=0.86  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #462  t=0.865  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #463  t=0.865  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #464  t=0.87  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=60)
+
+INFO:Received testMsg
+** Event #465  t=0.87  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #466  t=0.87  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #467  t=0.87  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #468  t=0.875  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #469  t=0.875  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #470  t=0.88  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #471  t=0.88  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #472  t=0.885  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=61)
+
+INFO:Received testMsg
+** Event #473  t=0.885  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #474  t=0.885  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #475  t=0.885  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #476  t=0.89  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #477  t=0.89  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #478  t=0.895  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #479  t=0.895  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #480  t=0.9  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=62)
+
+INFO:Received testMsg
+** Event #481  t=0.9  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #482  t=0.9  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #483  t=0.9  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #484  t=0.905  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #485  t=0.905  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #486  t=0.91  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #487  t=0.91  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #488  t=0.915  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=63)
+
+INFO:Received testMsg
+** Event #489  t=0.915  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #490  t=0.915  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #491  t=0.915  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #492  t=0.92  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #493  t=0.92  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #494  t=0.925  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #495  t=0.925  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #496  t=0.93  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=64)
+
+INFO:Received testMsg
+** Event #497  t=0.93  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #498  t=0.93  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #499  t=0.93  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #500  t=0.935  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #501  t=0.935  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #502  t=0.94  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #503  t=0.94  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #504  t=0.945  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=65)
+
+INFO:Received testMsg
+** Event #505  t=0.945  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #506  t=0.945  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #507  t=0.945  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #508  t=0.95  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #509  t=0.95  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #510  t=0.955  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #511  t=0.955  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #512  t=0.96  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=66)
+
+INFO:Received testMsg
+** Event #513  t=0.96  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #514  t=0.96  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #515  t=0.96  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #516  t=0.965  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #517  t=0.965  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #518  t=0.97  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #519  t=0.97  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #520  t=0.975  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=67)
+
+INFO:Received testMsg
+** Event #521  t=0.975  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #522  t=0.975  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #523  t=0.975  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #524  t=0.98  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #525  t=0.98  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #526  t=0.985  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #527  t=0.985  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #528  t=0.99  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=68)
+
+INFO:Received testMsg
+** Event #529  t=0.99  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+** Event #530  t=0.99  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #531  t=0.99  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #532  t=0.995  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+INFO:message generated
+** Event #533  t=0.995  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #534  t=1  SimpleNetwork.host (Host, id=2)  on selfmsg generate (omnetpp::cMessage, id=0)
+
+** Event #535  t=1  SimpleNetwork.switch (Switch, id=3)  on selfmsg nextInterval (omnetpp::cMessage, id=2)
+
+** Event #536  t=1.005  SimpleNetwork.switch (Switch, id=3)  on testMsg (omnetpp::cMessage, id=69)
+
+** Event #537  t=1.005  SimpleNetwork.host (Host, id=2)  on selfmsg send (omnetpp::cMessage, id=1)
+
+<!> No more events, simulation completed -- at t=1.005s, event #537
+
+** Calling finish() methods of modules
+
+INFO (Switch)SimpleNetwork.switch:interval 0, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 1, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 2, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 3, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 4, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 5, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 6, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 7, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 8, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 9, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 10, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 11, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 12, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 13, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 14, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 15, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 16, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 17, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 18, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 19, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 20, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 21, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 22, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 23, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 24, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 25, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 26, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 27, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 28, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 29, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 30, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 31, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 32, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 33, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 34, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 35, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 36, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 37, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 38, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 39, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 40, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 41, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 42, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 43, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 44, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 45, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 46, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 47, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 48, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 49, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 50, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 51, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 52, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 53, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 54, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 55, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 56, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 57, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 58, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 59, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 60, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 61, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 62, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 63, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 64, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 65, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 66, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 67, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 68, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 69, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 70, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 71, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 72, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 73, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 74, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 75, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 76, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 77, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 78, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 79, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 80, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 81, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 82, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 83, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 84, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 85, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 86, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 87, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 88, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 89, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 90, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 91, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 92, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 93, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 94, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 95, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 96, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 97, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 98, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 99, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 100, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 101, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 102, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 103, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 104, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 105, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 106, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 107, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 108, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 109, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 110, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 111, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 112, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 113, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 114, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 115, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 116, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 117, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 118, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 119, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 120, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 121, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 122, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 123, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 124, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 125, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 126, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 127, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 128, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 129, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 130, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 131, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 132, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 133, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 134, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 135, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 136, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 137, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 138, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 139, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 140, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 141, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 142, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 143, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 144, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 145, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 146, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 147, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 148, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 149, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 150, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 151, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 152, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 153, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 154, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 155, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 156, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 157, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 158, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 159, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 160, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 161, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 162, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 163, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 164, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 165, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 166, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 167, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 168, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 169, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 170, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 171, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 172, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 173, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 174, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 175, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 176, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 177, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 178, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 179, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 180, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 181, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 182, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 183, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 184, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 185, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 186, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 187, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 188, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 189, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 190, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 191, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 192, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 193, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 194, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 195, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 196, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 197, received 0 messages
+INFO (Switch)SimpleNetwork.switch:interval 198, received 1 messages
+INFO (Switch)SimpleNetwork.switch:interval 199, received 0 messages
