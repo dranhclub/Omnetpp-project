@@ -10,13 +10,16 @@ public class Torus3DGenerator {
     private final double SCALE = 200;
     private final double OFFSET = 200;
     private final double SKEW_X = 80;
-    private final double SKEW_Y = -50;
+    final double HOST_OFFSET_X = -30;
+    final double HOST_OFFSET_Y = -30;
     private Switch[][][] switches;
+    private Host[][][] hosts;
     private ArrayList<Connection> connections = new ArrayList<>();
 
     public Torus3DGenerator(int k) {
         K = k;
         createSwitches();
+        createHosts();
         createConnections();
     }
 
@@ -27,6 +30,7 @@ public class Torus3DGenerator {
                 for (int z = 0; z < K; z++) {
                     Switch s = new Switch("sw" + x + "_" + y + "_" + z);
                     s.setPosX(OFFSET + z * SKEW_X + x * SCALE);
+                    double SKEW_Y = -50;
                     s.setPosY(OFFSET + z * SKEW_Y + y * SCALE);
                     switches[x][y][z] = s;
                 }
@@ -34,8 +38,24 @@ public class Torus3DGenerator {
         }
     }
 
+    private void createHosts() {
+        hosts = new Host[K][K][K];
+        for (int x = 0; x < K; x++) {
+            for (int y = 0; y < K; y++) {
+                for (int z = 0; z < K; z++) {
+                    var host = new Host("h" + x + "_" + y + "_" + z);
+                    host.setPosX(switches[x][y][z].getPosX() + HOST_OFFSET_X);
+                    host.setPosY(switches[x][y][z].getPosY() + HOST_OFFSET_Y);
+                    hosts[x][y][z] = host;
+                }
+            }
+        }
+    }
+
     private void createConnections() {
         var channel = new Channel("Channel", 15);
+
+        // Switch to Switch (Lines)
         for (int z = 0; z < K; z++) {
             for (int x = 0; x < K; x++) {
                 for (int y = 0; y < K - 1; y++) {
@@ -56,6 +76,7 @@ public class Torus3DGenerator {
             }
         }
 
+        // Switch to Switch (Curves)
         for (int z = 0; z < K; z++) {
             for (int x = 0; x < K; x++) {
                 connections.add(new Connection(switches[x][0][z], switches[x][K - 1][z], channel));
@@ -71,11 +92,26 @@ public class Torus3DGenerator {
                 }
             }
         }
+
+        // Switch to Host
+        for (int x = 0; x < K; x++) {
+            for (int y = 0; y < K; y++) {
+                for (int z = 0; z < K; z++) {
+                    connections.add(new Connection(switches[x][y][z], hosts[x][y][z], channel));
+                }
+            }
+        }
     }
 
     private String generateNED() {
         StringBuilder str = new StringBuilder();
         str.append("" +
+                "simple Host\n" +
+                "{\n" +
+                "\tgates:\n" +
+                "\t    inout port[];\n" +
+                "}\n" +
+                "\n" +
                 "simple Switch\n" +
                 "{\n" +
                 "    gates:\n" +
@@ -95,6 +131,13 @@ public class Torus3DGenerator {
             for (int y = 0; y < K; y++) {
                 for (int z = 0; z < K; z++) {
                     str.append(switches[x][y][z].toNED());
+                }
+            }
+        }
+        for (int x = 0; x < K; x++) {
+            for (int y = 0; y < K; y++) {
+                for (int z = 0; z < K; z++) {
+                    str.append(hosts[x][y][z].toNED());
                 }
             }
         }
