@@ -1,21 +1,27 @@
 package torus3d;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Node {
     protected String name;
-    protected int x,y,z;
+    protected int x, y, z;
     protected double posX, posY;
 
-    public Node(String name) {
-        setName(name);
+    private List<Node> adjNodes = new ArrayList<>();
+
+    public Node(int x, int y, int z) {
+        setX(x);
+        setY(y);
+        setZ(z);
+        setName();
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    protected abstract void setName();
 
     public int getX() {
         return x;
@@ -57,5 +63,14 @@ public abstract class Node {
         this.posY = posY;
     }
 
+    public List<Node> getAdjNodes() {
+        return adjNodes;
+    }
+
+
     public abstract String toNED();
+
+    public void connectTo(Node node) {
+        adjNodes.add(node);
+    }
 }

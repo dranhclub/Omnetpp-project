@@ -2,8 +2,13 @@ package torus3d;
 
 public class Host extends Node{
 
-    public Host(String name) {
-        super(name);
+    public Host(int x, int y, int z) {
+        super(x, y, z);
+    }
+
+    @Override
+    protected void setName() {
+        this.name = "h" + x + "_" + y + "_" + z;
     }
 
     @Override

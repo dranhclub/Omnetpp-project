@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class Torus3DGenerator {
     private final int K;
@@ -28,7 +31,7 @@ public class Torus3DGenerator {
         for (int x = 0; x < K; x++) {
             for (int y = 0; y < K; y++) {
                 for (int z = 0; z < K; z++) {
-                    Switch s = new Switch("sw" + x + "_" + y + "_" + z);
+                    Switch s = new Switch(x, y, z);
                     s.setPosX(OFFSET + z * SKEW_X + x * SCALE);
                     double SKEW_Y = -50;
                     s.setPosY(OFFSET + z * SKEW_Y + y * SCALE);
@@ -43,7 +46,7 @@ public class Torus3DGenerator {
         for (int x = 0; x < K; x++) {
             for (int y = 0; y < K; y++) {
                 for (int z = 0; z < K; z++) {
-                    var host = new Host("h" + x + "_" + y + "_" + z);
+                    var host = new Host(x, y, z);
                     host.setPosX(switches[x][y][z].getPosX() + HOST_OFFSET_X);
                     host.setPosY(switches[x][y][z].getPosY() + HOST_OFFSET_Y);
                     hosts[x][y][z] = host;
@@ -85,11 +88,9 @@ public class Torus3DGenerator {
                 connections.add(new Connection(switches[0][y][z], switches[K - 1][y][z], channel));
             }
         }
-        for (int z = 0; z < K; z++) {
-            for (int x = 0; x < K; x++) {
-                for (int y = 0; y < K; y++) {
-                    connections.add(new Connection(switches[x][y][0], switches[x][y][K - 1], channel));
-                }
+        for (int x = 0; x < K; x++) {
+            for (int y = 0; y < K; y++) {
+                connections.add(new Connection(switches[x][y][0], switches[x][y][K - 1], channel));
             }
         }
 
@@ -103,7 +104,7 @@ public class Torus3DGenerator {
         }
     }
 
-    private String generateNED() {
+    public String generateNED() {
         StringBuilder str = new StringBuilder();
         str.append("" +
                 "simple Host\n" +
@@ -149,21 +150,38 @@ public class Torus3DGenerator {
         return str.toString();
     }
 
-    public static void main(String[] args) {
-        Torus3DGenerator generator = new Torus3DGenerator(3);
-        String torus3d = generator.generateNED();
-
-        String fileName = "../Lab06_3.ned";
-        File f = new File(fileName);
-        try {
-            FileWriter myWriter = new FileWriter(fileName);
-            myWriter.write(torus3d);
-            myWriter.close();
-            System.out.println("Successfully wrote to the file.");
-            System.out.println(torus3d);
-        } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+    public String getConnectionsList() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int x = 0; x < K; x++) {
+            for (int y = 0; y < K; y++) {
+                for (int z = 0; z < K; z++) {
+                    stringBuilder.append(switches[x][y][z].name);
+                    stringBuilder.append(" ");
+                    for (var adjNode : switches[x][y][z].getAdjNodes()) {
+                        stringBuilder.append(adjNode.getName());
+                        stringBuilder.append(" ");
+                    }
+                    stringBuilder.deleteCharAt(stringBuilder.lastIndexOf(" "));
+                    stringBuilder.append("\n");
+                }
+            }
         }
+        stringBuilder.deleteCharAt(stringBuilder.lastIndexOf("\n"));
+        return stringBuilder.toString();
     }
+
+    public Map<Integer, Node> getMap() {
+        Map<Integer, Node> map = new HashMap<>();
+        int i = 0;
+        for (int x = 0; x < K; x++) {
+            for (int y = 0; y < K; y++) {
+                for (int z = 0; z < K; z++) {
+                    Node s = switches[x][y][z];
+                    map.put(i++, s);
+                }
+            }
+        }
+        return map;
+    }
+
 }

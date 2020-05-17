@@ -1,8 +1,14 @@
 package torus3d;
 
 public class Switch extends Node {
-    public Switch(String name) {
-        super(name);
+
+    public Switch(int x, int y, int z) {
+        super(x, y, z);
+    }
+
+    @Override
+    protected void setName() {
+        this.name = "sw" + x + "_" + y + "_" + z;
     }
 
     @Override

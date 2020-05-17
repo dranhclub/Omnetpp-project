@@ -9,6 +9,8 @@ public class Connection {
         this.a = a;
         this.b = b;
         this.channel = c;
+        a.connectTo(b);
+        b.connectTo(a);
     }
 
     String toNED(){
