@@ -1,0 +1,1029 @@
+** Initializing network
+
+Initializing channel Torus3D.sw0_0_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_0_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_0_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_0_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_0_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_0_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_0_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_0_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_0_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_1_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_1_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_1_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_2_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_2_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw0_2_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_0_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_0_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_0_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_1_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_1_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_1_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_2_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_2_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw1_2_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_0_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_0_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_0_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_1_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_1_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_1_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_2_0.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_2_1.port$o[6].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[1].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[2].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[3].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[4].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[5].channel, stage 0
+Initializing channel Torus3D.sw2_2_2.port$o[6].channel, stage 0
+Initializing channel Torus3D.h0_0_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_0_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_0_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_1_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_1_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_1_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_2_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_2_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h0_2_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_0_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_0_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_0_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_1_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_1_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_1_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_2_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_2_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h1_2_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_0_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_0_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_0_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_1_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_1_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_1_2.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_2_0.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_2_1.port$o[0].channel, stage 0
+Initializing channel Torus3D.h2_2_2.port$o[0].channel, stage 0
+Initializing module Torus3D, stage 0
+Initializing module Torus3D.sw0_0_0, stage 0
+INFO (Switch)Torus3D.sw0_0_0:Routing table at sw0_0_0 :
+INFO (Switch)Torus3D.sw0_0_0:h0_0_0 | 6
+INFO (Switch)Torus3D.sw0_0_0:h0_0_1 | 2
+INFO (Switch)Torus3D.sw0_0_0:h0_0_2 | 5
+INFO (Switch)Torus3D.sw0_0_0:h0_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_0:h0_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_0:h0_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_0:h0_2_0 | 3
+INFO (Switch)Torus3D.sw0_0_0:h0_2_1 | 2
+INFO (Switch)Torus3D.sw0_0_0:h0_2_2 | 3
+INFO (Switch)Torus3D.sw0_0_0:h1_0_0 | 1
+INFO (Switch)Torus3D.sw0_0_0:h1_0_1 | 1
+INFO (Switch)Torus3D.sw0_0_0:h1_0_2 | 1
+INFO (Switch)Torus3D.sw0_0_0:h1_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_0:h1_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_0:h1_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_0_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_0_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_0_0:h2_0_0 | 4
+INFO (Switch)Torus3D.sw0_0_0:h2_0_1 | 2
+INFO (Switch)Torus3D.sw0_0_0:h2_0_2 | 4
+INFO (Switch)Torus3D.sw0_0_0:h2_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_0:h2_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_0:h2_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_0:h2_2_0 | 3
+INFO (Switch)Torus3D.sw0_0_0:h2_2_1 | 2
+INFO (Switch)Torus3D.sw0_0_0:h2_2_2 | 3
+Initializing module Torus3D.sw0_0_1, stage 0
+INFO (Switch)Torus3D.sw0_0_1:Routing table at sw0_0_1 :
+INFO (Switch)Torus3D.sw0_0_1:h0_0_0 | 2
+INFO (Switch)Torus3D.sw0_0_1:h0_0_1 | 6
+INFO (Switch)Torus3D.sw0_0_1:h0_0_2 | 3
+INFO (Switch)Torus3D.sw0_0_1:h0_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_1:h0_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_1:h0_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_1:h0_2_0 | 2
+INFO (Switch)Torus3D.sw0_0_1:h0_2_1 | 4
+INFO (Switch)Torus3D.sw0_0_1:h0_2_2 | 3
+INFO (Switch)Torus3D.sw0_0_1:h1_0_0 | 1
+INFO (Switch)Torus3D.sw0_0_1:h1_0_1 | 1
+INFO (Switch)Torus3D.sw0_0_1:h1_0_2 | 1
+INFO (Switch)Torus3D.sw0_0_1:h1_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_1:h1_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_1:h1_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_0_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_0_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_0_1:h2_0_0 | 2
+INFO (Switch)Torus3D.sw0_0_1:h2_0_1 | 5
+INFO (Switch)Torus3D.sw0_0_1:h2_0_2 | 3
+INFO (Switch)Torus3D.sw0_0_1:h2_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_1:h2_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_1:h2_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_1:h2_2_0 | 2
+INFO (Switch)Torus3D.sw0_0_1:h2_2_1 | 4
+INFO (Switch)Torus3D.sw0_0_1:h2_2_2 | 3
+Initializing module Torus3D.sw0_0_2, stage 0
+INFO (Switch)Torus3D.sw0_0_2:Routing table at sw0_0_2 :
+INFO (Switch)Torus3D.sw0_0_2:h0_0_0 | 5
+INFO (Switch)Torus3D.sw0_0_2:h0_0_1 | 2
+INFO (Switch)Torus3D.sw0_0_2:h0_0_2 | 6
+INFO (Switch)Torus3D.sw0_0_2:h0_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_2:h0_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_2:h0_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_2:h0_2_0 | 3
+INFO (Switch)Torus3D.sw0_0_2:h0_2_1 | 2
+INFO (Switch)Torus3D.sw0_0_2:h0_2_2 | 3
+INFO (Switch)Torus3D.sw0_0_2:h1_0_0 | 1
+INFO (Switch)Torus3D.sw0_0_2:h1_0_1 | 1
+INFO (Switch)Torus3D.sw0_0_2:h1_0_2 | 1
+INFO (Switch)Torus3D.sw0_0_2:h1_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_2:h1_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_2:h1_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_0_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_0_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_0_2:h2_0_0 | 4
+INFO (Switch)Torus3D.sw0_0_2:h2_0_1 | 2
+INFO (Switch)Torus3D.sw0_0_2:h2_0_2 | 4
+INFO (Switch)Torus3D.sw0_0_2:h2_1_0 | 0
+INFO (Switch)Torus3D.sw0_0_2:h2_1_1 | 0
+INFO (Switch)Torus3D.sw0_0_2:h2_1_2 | 0
+INFO (Switch)Torus3D.sw0_0_2:h2_2_0 | 3
+INFO (Switch)Torus3D.sw0_0_2:h2_2_1 | 2
+INFO (Switch)Torus3D.sw0_0_2:h2_2_2 | 3
+Initializing module Torus3D.sw0_1_0, stage 0
+INFO (Switch)Torus3D.sw0_1_0:Routing table at sw0_1_0 :
+INFO (Switch)Torus3D.sw0_1_0:h0_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_0:h0_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_0:h0_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_0:h0_1_0 | 6
+INFO (Switch)Torus3D.sw0_1_0:h0_1_1 | 3
+INFO (Switch)Torus3D.sw0_1_0:h0_1_2 | 5
+INFO (Switch)Torus3D.sw0_1_0:h0_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_0:h0_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_0:h0_2_2 | 1
+INFO (Switch)Torus3D.sw0_1_0:h1_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_0:h1_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_0:h1_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_0:h1_1_0 | 2
+INFO (Switch)Torus3D.sw0_1_0:h1_1_1 | 2
+INFO (Switch)Torus3D.sw0_1_0:h1_1_2 | 2
+INFO (Switch)Torus3D.sw0_1_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_1_0:h2_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_0:h2_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_0:h2_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_0:h2_1_0 | 4
+INFO (Switch)Torus3D.sw0_1_0:h2_1_1 | 3
+INFO (Switch)Torus3D.sw0_1_0:h2_1_2 | 4
+INFO (Switch)Torus3D.sw0_1_0:h2_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_0:h2_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_0:h2_2_2 | 1
+Initializing module Torus3D.sw0_1_1, stage 0
+INFO (Switch)Torus3D.sw0_1_1:Routing table at sw0_1_1 :
+INFO (Switch)Torus3D.sw0_1_1:h0_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_1:h0_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_1:h0_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_1:h0_1_0 | 3
+INFO (Switch)Torus3D.sw0_1_1:h0_1_1 | 6
+INFO (Switch)Torus3D.sw0_1_1:h0_1_2 | 4
+INFO (Switch)Torus3D.sw0_1_1:h0_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_1:h0_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_1:h0_2_2 | 1
+INFO (Switch)Torus3D.sw0_1_1:h1_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_1:h1_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_1:h1_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_1:h1_1_0 | 2
+INFO (Switch)Torus3D.sw0_1_1:h1_1_1 | 2
+INFO (Switch)Torus3D.sw0_1_1:h1_1_2 | 2
+INFO (Switch)Torus3D.sw0_1_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_1_1:h2_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_1:h2_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_1:h2_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_1:h2_1_0 | 3
+INFO (Switch)Torus3D.sw0_1_1:h2_1_1 | 5
+INFO (Switch)Torus3D.sw0_1_1:h2_1_2 | 4
+INFO (Switch)Torus3D.sw0_1_1:h2_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_1:h2_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_1:h2_2_2 | 1
+Initializing module Torus3D.sw0_1_2, stage 0
+INFO (Switch)Torus3D.sw0_1_2:Routing table at sw0_1_2 :
+INFO (Switch)Torus3D.sw0_1_2:h0_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_2:h0_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_2:h0_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_2:h0_1_0 | 5
+INFO (Switch)Torus3D.sw0_1_2:h0_1_1 | 3
+INFO (Switch)Torus3D.sw0_1_2:h0_1_2 | 6
+INFO (Switch)Torus3D.sw0_1_2:h0_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_2:h0_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_2:h0_2_2 | 1
+INFO (Switch)Torus3D.sw0_1_2:h1_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_2:h1_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_2:h1_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_2:h1_1_0 | 2
+INFO (Switch)Torus3D.sw0_1_2:h1_1_1 | 2
+INFO (Switch)Torus3D.sw0_1_2:h1_1_2 | 2
+INFO (Switch)Torus3D.sw0_1_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_1_2:h2_0_0 | 0
+INFO (Switch)Torus3D.sw0_1_2:h2_0_1 | 0
+INFO (Switch)Torus3D.sw0_1_2:h2_0_2 | 0
+INFO (Switch)Torus3D.sw0_1_2:h2_1_0 | 4
+INFO (Switch)Torus3D.sw0_1_2:h2_1_1 | 3
+INFO (Switch)Torus3D.sw0_1_2:h2_1_2 | 4
+INFO (Switch)Torus3D.sw0_1_2:h2_2_0 | 1
+INFO (Switch)Torus3D.sw0_1_2:h2_2_1 | 1
+INFO (Switch)Torus3D.sw0_1_2:h2_2_2 | 1
+Initializing module Torus3D.sw0_2_0, stage 0
+INFO (Switch)Torus3D.sw0_2_0:Routing table at sw0_2_0 :
+INFO (Switch)Torus3D.sw0_2_0:h0_0_0 | 3
+INFO (Switch)Torus3D.sw0_2_0:h0_0_1 | 2
+INFO (Switch)Torus3D.sw0_2_0:h0_0_2 | 3
+INFO (Switch)Torus3D.sw0_2_0:h0_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_0:h0_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_0:h0_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_0:h0_2_0 | 6
+INFO (Switch)Torus3D.sw0_2_0:h0_2_1 | 2
+INFO (Switch)Torus3D.sw0_2_0:h0_2_2 | 5
+INFO (Switch)Torus3D.sw0_2_0:h1_0_0 | 1
+INFO (Switch)Torus3D.sw0_2_0:h1_0_1 | 1
+INFO (Switch)Torus3D.sw0_2_0:h1_0_2 | 1
+INFO (Switch)Torus3D.sw0_2_0:h1_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_0:h1_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_0:h1_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_2_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_2_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_2_0:h2_0_0 | 3
+INFO (Switch)Torus3D.sw0_2_0:h2_0_1 | 2
+INFO (Switch)Torus3D.sw0_2_0:h2_0_2 | 3
+INFO (Switch)Torus3D.sw0_2_0:h2_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_0:h2_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_0:h2_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_0:h2_2_0 | 4
+INFO (Switch)Torus3D.sw0_2_0:h2_2_1 | 2
+INFO (Switch)Torus3D.sw0_2_0:h2_2_2 | 4
+Initializing module Torus3D.sw0_2_1, stage 0
+INFO (Switch)Torus3D.sw0_2_1:Routing table at sw0_2_1 :
+INFO (Switch)Torus3D.sw0_2_1:h0_0_0 | 2
+INFO (Switch)Torus3D.sw0_2_1:h0_0_1 | 4
+INFO (Switch)Torus3D.sw0_2_1:h0_0_2 | 3
+INFO (Switch)Torus3D.sw0_2_1:h0_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_1:h0_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_1:h0_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_1:h0_2_0 | 2
+INFO (Switch)Torus3D.sw0_2_1:h0_2_1 | 6
+INFO (Switch)Torus3D.sw0_2_1:h0_2_2 | 3
+INFO (Switch)Torus3D.sw0_2_1:h1_0_0 | 1
+INFO (Switch)Torus3D.sw0_2_1:h1_0_1 | 1
+INFO (Switch)Torus3D.sw0_2_1:h1_0_2 | 1
+INFO (Switch)Torus3D.sw0_2_1:h1_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_1:h1_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_1:h1_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_2_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_2_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_2_1:h2_0_0 | 2
+INFO (Switch)Torus3D.sw0_2_1:h2_0_1 | 4
+INFO (Switch)Torus3D.sw0_2_1:h2_0_2 | 3
+INFO (Switch)Torus3D.sw0_2_1:h2_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_1:h2_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_1:h2_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_1:h2_2_0 | 2
+INFO (Switch)Torus3D.sw0_2_1:h2_2_1 | 5
+INFO (Switch)Torus3D.sw0_2_1:h2_2_2 | 3
+Initializing module Torus3D.sw0_2_2, stage 0
+INFO (Switch)Torus3D.sw0_2_2:Routing table at sw0_2_2 :
+INFO (Switch)Torus3D.sw0_2_2:h0_0_0 | 3
+INFO (Switch)Torus3D.sw0_2_2:h0_0_1 | 2
+INFO (Switch)Torus3D.sw0_2_2:h0_0_2 | 3
+INFO (Switch)Torus3D.sw0_2_2:h0_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_2:h0_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_2:h0_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_2:h0_2_0 | 5
+INFO (Switch)Torus3D.sw0_2_2:h0_2_1 | 2
+INFO (Switch)Torus3D.sw0_2_2:h0_2_2 | 6
+INFO (Switch)Torus3D.sw0_2_2:h1_0_0 | 1
+INFO (Switch)Torus3D.sw0_2_2:h1_0_1 | 1
+INFO (Switch)Torus3D.sw0_2_2:h1_0_2 | 1
+INFO (Switch)Torus3D.sw0_2_2:h1_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_2:h1_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_2:h1_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw0_2_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw0_2_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw0_2_2:h2_0_0 | 3
+INFO (Switch)Torus3D.sw0_2_2:h2_0_1 | 2
+INFO (Switch)Torus3D.sw0_2_2:h2_0_2 | 3
+INFO (Switch)Torus3D.sw0_2_2:h2_1_0 | 0
+INFO (Switch)Torus3D.sw0_2_2:h2_1_1 | 0
+INFO (Switch)Torus3D.sw0_2_2:h2_1_2 | 0
+INFO (Switch)Torus3D.sw0_2_2:h2_2_0 | 4
+INFO (Switch)Torus3D.sw0_2_2:h2_2_1 | 2
+INFO (Switch)Torus3D.sw0_2_2:h2_2_2 | 4
+Initializing module Torus3D.sw1_0_0, stage 0
+INFO (Switch)Torus3D.sw1_0_0:Routing table at sw1_0_0 :
+INFO (Switch)Torus3D.sw1_0_0:h0_0_0 | 1
+INFO (Switch)Torus3D.sw1_0_0:h0_0_1 | 1
+INFO (Switch)Torus3D.sw1_0_0:h0_0_2 | 1
+INFO (Switch)Torus3D.sw1_0_0:h0_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_0:h0_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_0:h0_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_0:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_0_0:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_0_0:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_0_0:h1_0_0 | 6
+INFO (Switch)Torus3D.sw1_0_0:h1_0_1 | 3
+INFO (Switch)Torus3D.sw1_0_0:h1_0_2 | 5
+INFO (Switch)Torus3D.sw1_0_0:h1_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_0:h1_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_0:h1_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_0:h1_2_0 | 4
+INFO (Switch)Torus3D.sw1_0_0:h1_2_1 | 3
+INFO (Switch)Torus3D.sw1_0_0:h1_2_2 | 4
+INFO (Switch)Torus3D.sw1_0_0:h2_0_0 | 2
+INFO (Switch)Torus3D.sw1_0_0:h2_0_1 | 2
+INFO (Switch)Torus3D.sw1_0_0:h2_0_2 | 2
+INFO (Switch)Torus3D.sw1_0_0:h2_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_0:h2_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_0:h2_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_0:h2_2_0 | 2
+INFO (Switch)Torus3D.sw1_0_0:h2_2_1 | 2
+INFO (Switch)Torus3D.sw1_0_0:h2_2_2 | 2
+Initializing module Torus3D.sw1_0_1, stage 0
+INFO (Switch)Torus3D.sw1_0_1:Routing table at sw1_0_1 :
+INFO (Switch)Torus3D.sw1_0_1:h0_0_0 | 1
+INFO (Switch)Torus3D.sw1_0_1:h0_0_1 | 1
+INFO (Switch)Torus3D.sw1_0_1:h0_0_2 | 1
+INFO (Switch)Torus3D.sw1_0_1:h0_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_1:h0_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_1:h0_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_1:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_0_1:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_0_1:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_0_1:h1_0_0 | 3
+INFO (Switch)Torus3D.sw1_0_1:h1_0_1 | 6
+INFO (Switch)Torus3D.sw1_0_1:h1_0_2 | 4
+INFO (Switch)Torus3D.sw1_0_1:h1_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_1:h1_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_1:h1_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_1:h1_2_0 | 3
+INFO (Switch)Torus3D.sw1_0_1:h1_2_1 | 5
+INFO (Switch)Torus3D.sw1_0_1:h1_2_2 | 4
+INFO (Switch)Torus3D.sw1_0_1:h2_0_0 | 2
+INFO (Switch)Torus3D.sw1_0_1:h2_0_1 | 2
+INFO (Switch)Torus3D.sw1_0_1:h2_0_2 | 2
+INFO (Switch)Torus3D.sw1_0_1:h2_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_1:h2_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_1:h2_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_1:h2_2_0 | 2
+INFO (Switch)Torus3D.sw1_0_1:h2_2_1 | 2
+INFO (Switch)Torus3D.sw1_0_1:h2_2_2 | 2
+Initializing module Torus3D.sw1_0_2, stage 0
+INFO (Switch)Torus3D.sw1_0_2:Routing table at sw1_0_2 :
+INFO (Switch)Torus3D.sw1_0_2:h0_0_0 | 1
+INFO (Switch)Torus3D.sw1_0_2:h0_0_1 | 1
+INFO (Switch)Torus3D.sw1_0_2:h0_0_2 | 1
+INFO (Switch)Torus3D.sw1_0_2:h0_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_2:h0_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_2:h0_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_2:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_0_2:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_0_2:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_0_2:h1_0_0 | 5
+INFO (Switch)Torus3D.sw1_0_2:h1_0_1 | 3
+INFO (Switch)Torus3D.sw1_0_2:h1_0_2 | 6
+INFO (Switch)Torus3D.sw1_0_2:h1_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_2:h1_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_2:h1_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_2:h1_2_0 | 4
+INFO (Switch)Torus3D.sw1_0_2:h1_2_1 | 3
+INFO (Switch)Torus3D.sw1_0_2:h1_2_2 | 4
+INFO (Switch)Torus3D.sw1_0_2:h2_0_0 | 2
+INFO (Switch)Torus3D.sw1_0_2:h2_0_1 | 2
+INFO (Switch)Torus3D.sw1_0_2:h2_0_2 | 2
+INFO (Switch)Torus3D.sw1_0_2:h2_1_0 | 0
+INFO (Switch)Torus3D.sw1_0_2:h2_1_1 | 0
+INFO (Switch)Torus3D.sw1_0_2:h2_1_2 | 0
+INFO (Switch)Torus3D.sw1_0_2:h2_2_0 | 2
+INFO (Switch)Torus3D.sw1_0_2:h2_2_1 | 2
+INFO (Switch)Torus3D.sw1_0_2:h2_2_2 | 2
+Initializing module Torus3D.sw1_1_0, stage 0
+INFO (Switch)Torus3D.sw1_1_0:Routing table at sw1_1_0 :
+INFO (Switch)Torus3D.sw1_1_0:h0_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_0:h0_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_0:h0_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_0:h0_1_0 | 2
+INFO (Switch)Torus3D.sw1_1_0:h0_1_1 | 2
+INFO (Switch)Torus3D.sw1_1_0:h0_1_2 | 2
+INFO (Switch)Torus3D.sw1_1_0:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_0:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_0:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_1_0:h1_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_0:h1_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_0:h1_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_0:h1_1_0 | 6
+INFO (Switch)Torus3D.sw1_1_0:h1_1_1 | 4
+INFO (Switch)Torus3D.sw1_1_0:h1_1_2 | 5
+INFO (Switch)Torus3D.sw1_1_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw1_1_0:h2_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_0:h2_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_0:h2_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_0:h2_1_0 | 3
+INFO (Switch)Torus3D.sw1_1_0:h2_1_1 | 3
+INFO (Switch)Torus3D.sw1_1_0:h2_1_2 | 3
+INFO (Switch)Torus3D.sw1_1_0:h2_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_0:h2_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_0:h2_2_2 | 1
+Initializing module Torus3D.sw1_1_1, stage 0
+INFO (Switch)Torus3D.sw1_1_1:Routing table at sw1_1_1 :
+INFO (Switch)Torus3D.sw1_1_1:h0_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_1:h0_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_1:h0_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_1:h0_1_0 | 2
+INFO (Switch)Torus3D.sw1_1_1:h0_1_1 | 2
+INFO (Switch)Torus3D.sw1_1_1:h0_1_2 | 2
+INFO (Switch)Torus3D.sw1_1_1:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_1:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_1:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_1_1:h1_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_1:h1_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_1:h1_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_1:h1_1_0 | 4
+INFO (Switch)Torus3D.sw1_1_1:h1_1_1 | 6
+INFO (Switch)Torus3D.sw1_1_1:h1_1_2 | 5
+INFO (Switch)Torus3D.sw1_1_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw1_1_1:h2_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_1:h2_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_1:h2_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_1:h2_1_0 | 3
+INFO (Switch)Torus3D.sw1_1_1:h2_1_1 | 3
+INFO (Switch)Torus3D.sw1_1_1:h2_1_2 | 3
+INFO (Switch)Torus3D.sw1_1_1:h2_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_1:h2_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_1:h2_2_2 | 1
+Initializing module Torus3D.sw1_1_2, stage 0
+INFO (Switch)Torus3D.sw1_1_2:Routing table at sw1_1_2 :
+INFO (Switch)Torus3D.sw1_1_2:h0_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_2:h0_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_2:h0_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_2:h0_1_0 | 2
+INFO (Switch)Torus3D.sw1_1_2:h0_1_1 | 2
+INFO (Switch)Torus3D.sw1_1_2:h0_1_2 | 2
+INFO (Switch)Torus3D.sw1_1_2:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_2:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_2:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_1_2:h1_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_2:h1_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_2:h1_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_2:h1_1_0 | 5
+INFO (Switch)Torus3D.sw1_1_2:h1_1_1 | 4
+INFO (Switch)Torus3D.sw1_1_2:h1_1_2 | 6
+INFO (Switch)Torus3D.sw1_1_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw1_1_2:h2_0_0 | 0
+INFO (Switch)Torus3D.sw1_1_2:h2_0_1 | 0
+INFO (Switch)Torus3D.sw1_1_2:h2_0_2 | 0
+INFO (Switch)Torus3D.sw1_1_2:h2_1_0 | 3
+INFO (Switch)Torus3D.sw1_1_2:h2_1_1 | 3
+INFO (Switch)Torus3D.sw1_1_2:h2_1_2 | 3
+INFO (Switch)Torus3D.sw1_1_2:h2_2_0 | 1
+INFO (Switch)Torus3D.sw1_1_2:h2_2_1 | 1
+INFO (Switch)Torus3D.sw1_1_2:h2_2_2 | 1
+Initializing module Torus3D.sw1_2_0, stage 0
+INFO (Switch)Torus3D.sw1_2_0:Routing table at sw1_2_0 :
+INFO (Switch)Torus3D.sw1_2_0:h0_0_0 | 1
+INFO (Switch)Torus3D.sw1_2_0:h0_0_1 | 1
+INFO (Switch)Torus3D.sw1_2_0:h0_0_2 | 1
+INFO (Switch)Torus3D.sw1_2_0:h0_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_0:h0_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_0:h0_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_0:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_2_0:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_2_0:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_2_0:h1_0_0 | 4
+INFO (Switch)Torus3D.sw1_2_0:h1_0_1 | 3
+INFO (Switch)Torus3D.sw1_2_0:h1_0_2 | 4
+INFO (Switch)Torus3D.sw1_2_0:h1_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_0:h1_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_0:h1_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_0:h1_2_0 | 6
+INFO (Switch)Torus3D.sw1_2_0:h1_2_1 | 3
+INFO (Switch)Torus3D.sw1_2_0:h1_2_2 | 5
+INFO (Switch)Torus3D.sw1_2_0:h2_0_0 | 2
+INFO (Switch)Torus3D.sw1_2_0:h2_0_1 | 2
+INFO (Switch)Torus3D.sw1_2_0:h2_0_2 | 2
+INFO (Switch)Torus3D.sw1_2_0:h2_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_0:h2_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_0:h2_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_0:h2_2_0 | 2
+INFO (Switch)Torus3D.sw1_2_0:h2_2_1 | 2
+INFO (Switch)Torus3D.sw1_2_0:h2_2_2 | 2
+Initializing module Torus3D.sw1_2_1, stage 0
+INFO (Switch)Torus3D.sw1_2_1:Routing table at sw1_2_1 :
+INFO (Switch)Torus3D.sw1_2_1:h0_0_0 | 1
+INFO (Switch)Torus3D.sw1_2_1:h0_0_1 | 1
+INFO (Switch)Torus3D.sw1_2_1:h0_0_2 | 1
+INFO (Switch)Torus3D.sw1_2_1:h0_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_1:h0_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_1:h0_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_1:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_2_1:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_2_1:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_2_1:h1_0_0 | 3
+INFO (Switch)Torus3D.sw1_2_1:h1_0_1 | 5
+INFO (Switch)Torus3D.sw1_2_1:h1_0_2 | 4
+INFO (Switch)Torus3D.sw1_2_1:h1_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_1:h1_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_1:h1_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_1:h1_2_0 | 3
+INFO (Switch)Torus3D.sw1_2_1:h1_2_1 | 6
+INFO (Switch)Torus3D.sw1_2_1:h1_2_2 | 4
+INFO (Switch)Torus3D.sw1_2_1:h2_0_0 | 2
+INFO (Switch)Torus3D.sw1_2_1:h2_0_1 | 2
+INFO (Switch)Torus3D.sw1_2_1:h2_0_2 | 2
+INFO (Switch)Torus3D.sw1_2_1:h2_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_1:h2_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_1:h2_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_1:h2_2_0 | 2
+INFO (Switch)Torus3D.sw1_2_1:h2_2_1 | 2
+INFO (Switch)Torus3D.sw1_2_1:h2_2_2 | 2
+Initializing module Torus3D.sw1_2_2, stage 0
+INFO (Switch)Torus3D.sw1_2_2:Routing table at sw1_2_2 :
+INFO (Switch)Torus3D.sw1_2_2:h0_0_0 | 1
+INFO (Switch)Torus3D.sw1_2_2:h0_0_1 | 1
+INFO (Switch)Torus3D.sw1_2_2:h0_0_2 | 1
+INFO (Switch)Torus3D.sw1_2_2:h0_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_2:h0_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_2:h0_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_2:h0_2_0 | 1
+INFO (Switch)Torus3D.sw1_2_2:h0_2_1 | 1
+INFO (Switch)Torus3D.sw1_2_2:h0_2_2 | 1
+INFO (Switch)Torus3D.sw1_2_2:h1_0_0 | 4
+INFO (Switch)Torus3D.sw1_2_2:h1_0_1 | 3
+INFO (Switch)Torus3D.sw1_2_2:h1_0_2 | 4
+INFO (Switch)Torus3D.sw1_2_2:h1_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_2:h1_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_2:h1_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_2:h1_2_0 | 5
+INFO (Switch)Torus3D.sw1_2_2:h1_2_1 | 3
+INFO (Switch)Torus3D.sw1_2_2:h1_2_2 | 6
+INFO (Switch)Torus3D.sw1_2_2:h2_0_0 | 2
+INFO (Switch)Torus3D.sw1_2_2:h2_0_1 | 2
+INFO (Switch)Torus3D.sw1_2_2:h2_0_2 | 2
+INFO (Switch)Torus3D.sw1_2_2:h2_1_0 | 0
+INFO (Switch)Torus3D.sw1_2_2:h2_1_1 | 0
+INFO (Switch)Torus3D.sw1_2_2:h2_1_2 | 0
+INFO (Switch)Torus3D.sw1_2_2:h2_2_0 | 2
+INFO (Switch)Torus3D.sw1_2_2:h2_2_1 | 2
+INFO (Switch)Torus3D.sw1_2_2:h2_2_2 | 2
+Initializing module Torus3D.sw2_0_0, stage 0
+INFO (Switch)Torus3D.sw2_0_0:Routing table at sw2_0_0 :
+INFO (Switch)Torus3D.sw2_0_0:h0_0_0 | 4
+INFO (Switch)Torus3D.sw2_0_0:h0_0_1 | 2
+INFO (Switch)Torus3D.sw2_0_0:h0_0_2 | 4
+INFO (Switch)Torus3D.sw2_0_0:h0_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_0:h0_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_0:h0_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_0:h0_2_0 | 3
+INFO (Switch)Torus3D.sw2_0_0:h0_2_1 | 2
+INFO (Switch)Torus3D.sw2_0_0:h0_2_2 | 3
+INFO (Switch)Torus3D.sw2_0_0:h1_0_0 | 1
+INFO (Switch)Torus3D.sw2_0_0:h1_0_1 | 1
+INFO (Switch)Torus3D.sw2_0_0:h1_0_2 | 1
+INFO (Switch)Torus3D.sw2_0_0:h1_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_0:h1_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_0:h1_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_0_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_0_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_0_0:h2_0_0 | 6
+INFO (Switch)Torus3D.sw2_0_0:h2_0_1 | 2
+INFO (Switch)Torus3D.sw2_0_0:h2_0_2 | 5
+INFO (Switch)Torus3D.sw2_0_0:h2_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_0:h2_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_0:h2_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_0:h2_2_0 | 3
+INFO (Switch)Torus3D.sw2_0_0:h2_2_1 | 2
+INFO (Switch)Torus3D.sw2_0_0:h2_2_2 | 3
+Initializing module Torus3D.sw2_0_1, stage 0
+INFO (Switch)Torus3D.sw2_0_1:Routing table at sw2_0_1 :
+INFO (Switch)Torus3D.sw2_0_1:h0_0_0 | 2
+INFO (Switch)Torus3D.sw2_0_1:h0_0_1 | 5
+INFO (Switch)Torus3D.sw2_0_1:h0_0_2 | 3
+INFO (Switch)Torus3D.sw2_0_1:h0_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_1:h0_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_1:h0_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_1:h0_2_0 | 2
+INFO (Switch)Torus3D.sw2_0_1:h0_2_1 | 4
+INFO (Switch)Torus3D.sw2_0_1:h0_2_2 | 3
+INFO (Switch)Torus3D.sw2_0_1:h1_0_0 | 1
+INFO (Switch)Torus3D.sw2_0_1:h1_0_1 | 1
+INFO (Switch)Torus3D.sw2_0_1:h1_0_2 | 1
+INFO (Switch)Torus3D.sw2_0_1:h1_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_1:h1_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_1:h1_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_0_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_0_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_0_1:h2_0_0 | 2
+INFO (Switch)Torus3D.sw2_0_1:h2_0_1 | 6
+INFO (Switch)Torus3D.sw2_0_1:h2_0_2 | 3
+INFO (Switch)Torus3D.sw2_0_1:h2_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_1:h2_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_1:h2_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_1:h2_2_0 | 2
+INFO (Switch)Torus3D.sw2_0_1:h2_2_1 | 4
+INFO (Switch)Torus3D.sw2_0_1:h2_2_2 | 3
+Initializing module Torus3D.sw2_0_2, stage 0
+INFO (Switch)Torus3D.sw2_0_2:Routing table at sw2_0_2 :
+INFO (Switch)Torus3D.sw2_0_2:h0_0_0 | 4
+INFO (Switch)Torus3D.sw2_0_2:h0_0_1 | 2
+INFO (Switch)Torus3D.sw2_0_2:h0_0_2 | 4
+INFO (Switch)Torus3D.sw2_0_2:h0_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_2:h0_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_2:h0_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_2:h0_2_0 | 3
+INFO (Switch)Torus3D.sw2_0_2:h0_2_1 | 2
+INFO (Switch)Torus3D.sw2_0_2:h0_2_2 | 3
+INFO (Switch)Torus3D.sw2_0_2:h1_0_0 | 1
+INFO (Switch)Torus3D.sw2_0_2:h1_0_1 | 1
+INFO (Switch)Torus3D.sw2_0_2:h1_0_2 | 1
+INFO (Switch)Torus3D.sw2_0_2:h1_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_2:h1_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_2:h1_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_0_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_0_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_0_2:h2_0_0 | 5
+INFO (Switch)Torus3D.sw2_0_2:h2_0_1 | 2
+INFO (Switch)Torus3D.sw2_0_2:h2_0_2 | 6
+INFO (Switch)Torus3D.sw2_0_2:h2_1_0 | 0
+INFO (Switch)Torus3D.sw2_0_2:h2_1_1 | 0
+INFO (Switch)Torus3D.sw2_0_2:h2_1_2 | 0
+INFO (Switch)Torus3D.sw2_0_2:h2_2_0 | 3
+INFO (Switch)Torus3D.sw2_0_2:h2_2_1 | 2
+INFO (Switch)Torus3D.sw2_0_2:h2_2_2 | 3
+Initializing module Torus3D.sw2_1_0, stage 0
+INFO (Switch)Torus3D.sw2_1_0:Routing table at sw2_1_0 :
+INFO (Switch)Torus3D.sw2_1_0:h0_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_0:h0_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_0:h0_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_0:h0_1_0 | 4
+INFO (Switch)Torus3D.sw2_1_0:h0_1_1 | 3
+INFO (Switch)Torus3D.sw2_1_0:h0_1_2 | 4
+INFO (Switch)Torus3D.sw2_1_0:h0_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_0:h0_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_0:h0_2_2 | 1
+INFO (Switch)Torus3D.sw2_1_0:h1_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_0:h1_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_0:h1_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_0:h1_1_0 | 2
+INFO (Switch)Torus3D.sw2_1_0:h1_1_1 | 2
+INFO (Switch)Torus3D.sw2_1_0:h1_1_2 | 2
+INFO (Switch)Torus3D.sw2_1_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_1_0:h2_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_0:h2_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_0:h2_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_0:h2_1_0 | 6
+INFO (Switch)Torus3D.sw2_1_0:h2_1_1 | 3
+INFO (Switch)Torus3D.sw2_1_0:h2_1_2 | 5
+INFO (Switch)Torus3D.sw2_1_0:h2_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_0:h2_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_0:h2_2_2 | 1
+Initializing module Torus3D.sw2_1_1, stage 0
+INFO (Switch)Torus3D.sw2_1_1:Routing table at sw2_1_1 :
+INFO (Switch)Torus3D.sw2_1_1:h0_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_1:h0_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_1:h0_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_1:h0_1_0 | 3
+INFO (Switch)Torus3D.sw2_1_1:h0_1_1 | 5
+INFO (Switch)Torus3D.sw2_1_1:h0_1_2 | 4
+INFO (Switch)Torus3D.sw2_1_1:h0_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_1:h0_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_1:h0_2_2 | 1
+INFO (Switch)Torus3D.sw2_1_1:h1_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_1:h1_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_1:h1_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_1:h1_1_0 | 2
+INFO (Switch)Torus3D.sw2_1_1:h1_1_1 | 2
+INFO (Switch)Torus3D.sw2_1_1:h1_1_2 | 2
+INFO (Switch)Torus3D.sw2_1_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_1_1:h2_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_1:h2_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_1:h2_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_1:h2_1_0 | 3
+INFO (Switch)Torus3D.sw2_1_1:h2_1_1 | 6
+INFO (Switch)Torus3D.sw2_1_1:h2_1_2 | 4
+INFO (Switch)Torus3D.sw2_1_1:h2_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_1:h2_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_1:h2_2_2 | 1
+Initializing module Torus3D.sw2_1_2, stage 0
+INFO (Switch)Torus3D.sw2_1_2:Routing table at sw2_1_2 :
+INFO (Switch)Torus3D.sw2_1_2:h0_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_2:h0_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_2:h0_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_2:h0_1_0 | 4
+INFO (Switch)Torus3D.sw2_1_2:h0_1_1 | 3
+INFO (Switch)Torus3D.sw2_1_2:h0_1_2 | 4
+INFO (Switch)Torus3D.sw2_1_2:h0_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_2:h0_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_2:h0_2_2 | 1
+INFO (Switch)Torus3D.sw2_1_2:h1_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_2:h1_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_2:h1_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_2:h1_1_0 | 2
+INFO (Switch)Torus3D.sw2_1_2:h1_1_1 | 2
+INFO (Switch)Torus3D.sw2_1_2:h1_1_2 | 2
+INFO (Switch)Torus3D.sw2_1_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_1_2:h2_0_0 | 0
+INFO (Switch)Torus3D.sw2_1_2:h2_0_1 | 0
+INFO (Switch)Torus3D.sw2_1_2:h2_0_2 | 0
+INFO (Switch)Torus3D.sw2_1_2:h2_1_0 | 5
+INFO (Switch)Torus3D.sw2_1_2:h2_1_1 | 3
+INFO (Switch)Torus3D.sw2_1_2:h2_1_2 | 6
+INFO (Switch)Torus3D.sw2_1_2:h2_2_0 | 1
+INFO (Switch)Torus3D.sw2_1_2:h2_2_1 | 1
+INFO (Switch)Torus3D.sw2_1_2:h2_2_2 | 1
+Initializing module Torus3D.sw2_2_0, stage 0
+INFO (Switch)Torus3D.sw2_2_0:Routing table at sw2_2_0 :
+INFO (Switch)Torus3D.sw2_2_0:h0_0_0 | 3
+INFO (Switch)Torus3D.sw2_2_0:h0_0_1 | 2
+INFO (Switch)Torus3D.sw2_2_0:h0_0_2 | 3
+INFO (Switch)Torus3D.sw2_2_0:h0_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_0:h0_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_0:h0_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_0:h0_2_0 | 4
+INFO (Switch)Torus3D.sw2_2_0:h0_2_1 | 2
+INFO (Switch)Torus3D.sw2_2_0:h0_2_2 | 4
+INFO (Switch)Torus3D.sw2_2_0:h1_0_0 | 1
+INFO (Switch)Torus3D.sw2_2_0:h1_0_1 | 1
+INFO (Switch)Torus3D.sw2_2_0:h1_0_2 | 1
+INFO (Switch)Torus3D.sw2_2_0:h1_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_0:h1_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_0:h1_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_0:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_2_0:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_2_0:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_2_0:h2_0_0 | 3
+INFO (Switch)Torus3D.sw2_2_0:h2_0_1 | 2
+INFO (Switch)Torus3D.sw2_2_0:h2_0_2 | 3
+INFO (Switch)Torus3D.sw2_2_0:h2_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_0:h2_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_0:h2_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_0:h2_2_0 | 6
+INFO (Switch)Torus3D.sw2_2_0:h2_2_1 | 2
+INFO (Switch)Torus3D.sw2_2_0:h2_2_2 | 5
+Initializing module Torus3D.sw2_2_1, stage 0
+INFO (Switch)Torus3D.sw2_2_1:Routing table at sw2_2_1 :
+INFO (Switch)Torus3D.sw2_2_1:h0_0_0 | 2
+INFO (Switch)Torus3D.sw2_2_1:h0_0_1 | 4
+INFO (Switch)Torus3D.sw2_2_1:h0_0_2 | 3
+INFO (Switch)Torus3D.sw2_2_1:h0_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_1:h0_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_1:h0_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_1:h0_2_0 | 2
+INFO (Switch)Torus3D.sw2_2_1:h0_2_1 | 5
+INFO (Switch)Torus3D.sw2_2_1:h0_2_2 | 3
+INFO (Switch)Torus3D.sw2_2_1:h1_0_0 | 1
+INFO (Switch)Torus3D.sw2_2_1:h1_0_1 | 1
+INFO (Switch)Torus3D.sw2_2_1:h1_0_2 | 1
+INFO (Switch)Torus3D.sw2_2_1:h1_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_1:h1_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_1:h1_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_1:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_2_1:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_2_1:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_2_1:h2_0_0 | 2
+INFO (Switch)Torus3D.sw2_2_1:h2_0_1 | 4
+INFO (Switch)Torus3D.sw2_2_1:h2_0_2 | 3
+INFO (Switch)Torus3D.sw2_2_1:h2_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_1:h2_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_1:h2_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_1:h2_2_0 | 2
+INFO (Switch)Torus3D.sw2_2_1:h2_2_1 | 6
+INFO (Switch)Torus3D.sw2_2_1:h2_2_2 | 3
+Initializing module Torus3D.sw2_2_2, stage 0
+INFO (Switch)Torus3D.sw2_2_2:Routing table at sw2_2_2 :
+INFO (Switch)Torus3D.sw2_2_2:h0_0_0 | 3
+INFO (Switch)Torus3D.sw2_2_2:h0_0_1 | 2
+INFO (Switch)Torus3D.sw2_2_2:h0_0_2 | 3
+INFO (Switch)Torus3D.sw2_2_2:h0_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_2:h0_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_2:h0_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_2:h0_2_0 | 4
+INFO (Switch)Torus3D.sw2_2_2:h0_2_1 | 2
+INFO (Switch)Torus3D.sw2_2_2:h0_2_2 | 4
+INFO (Switch)Torus3D.sw2_2_2:h1_0_0 | 1
+INFO (Switch)Torus3D.sw2_2_2:h1_0_1 | 1
+INFO (Switch)Torus3D.sw2_2_2:h1_0_2 | 1
+INFO (Switch)Torus3D.sw2_2_2:h1_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_2:h1_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_2:h1_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_2:h1_2_0 | 1
+INFO (Switch)Torus3D.sw2_2_2:h1_2_1 | 1
+INFO (Switch)Torus3D.sw2_2_2:h1_2_2 | 1
+INFO (Switch)Torus3D.sw2_2_2:h2_0_0 | 3
+INFO (Switch)Torus3D.sw2_2_2:h2_0_1 | 2
+INFO (Switch)Torus3D.sw2_2_2:h2_0_2 | 3
+INFO (Switch)Torus3D.sw2_2_2:h2_1_0 | 0
+INFO (Switch)Torus3D.sw2_2_2:h2_1_1 | 0
+INFO (Switch)Torus3D.sw2_2_2:h2_1_2 | 0
+INFO (Switch)Torus3D.sw2_2_2:h2_2_0 | 5
+INFO (Switch)Torus3D.sw2_2_2:h2_2_1 | 2
+INFO (Switch)Torus3D.sw2_2_2:h2_2_2 | 6
+Initializing module Torus3D.h0_0_0, stage 0
+Initializing module Torus3D.h0_0_1, stage 0
+Initializing module Torus3D.h0_0_2, stage 0
+Initializing module Torus3D.h0_1_0, stage 0
+Initializing module Torus3D.h0_1_1, stage 0
+Initializing module Torus3D.h0_1_2, stage 0
+Initializing module Torus3D.h0_2_0, stage 0
+Initializing module Torus3D.h0_2_1, stage 0
+Initializing module Torus3D.h0_2_2, stage 0
+Initializing module Torus3D.h1_0_0, stage 0
+Initializing module Torus3D.h1_0_1, stage 0
+Initializing module Torus3D.h1_0_2, stage 0
+Initializing module Torus3D.h1_1_0, stage 0
+Initializing module Torus3D.h1_1_1, stage 0
+Initializing module Torus3D.h1_1_2, stage 0
+Initializing module Torus3D.h1_2_0, stage 0
+Initializing module Torus3D.h1_2_1, stage 0
+Initializing module Torus3D.h1_2_2, stage 0
+Initializing module Torus3D.h2_0_0, stage 0
+Initializing module Torus3D.h2_0_1, stage 0
+Initializing module Torus3D.h2_0_2, stage 0
+Initializing module Torus3D.h2_1_0, stage 0
+Initializing module Torus3D.h2_1_1, stage 0
+Initializing module Torus3D.h2_1_2, stage 0
+Initializing module Torus3D.h2_2_0, stage 0
+Initializing module Torus3D.h2_2_1, stage 0
+Initializing module Torus3D.h2_2_2, stage 0

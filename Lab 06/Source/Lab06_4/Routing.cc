@@ -23,9 +23,12 @@ Routing* Routing::getInstance() {
 }
 
 void Routing::init() {
+
+    /////////////////////////////////////
+    // Reading connections list from file
+
     string line;
     ifstream myfile("./ConnectionsList.txt");
-    vector<vector<string>> vec;
     if (myfile.is_open())
     {
         while (getline(myfile, line))
@@ -58,15 +61,15 @@ void Routing::init() {
         cout << "\n";
     }
 
-
-    map<string, int> switchesMap;
-    map<string, int> hostsMap;
     int k = 0;
     for (auto line : vec) {
         switchesMap.insert(pair<string, int>(line.front(), k));
         hostsMap.insert(pair<string, int>(line.back(), 1000 + k));
         k++;
     }
+
+    /////////////////////////////////////
+    // Init connections matrix
 
     size = vec.size();
     conn = new int* [size];
@@ -85,10 +88,13 @@ void Routing::init() {
         }
         cout << endl;
     }
-
-    printPath(0, 20);
 }
 
+/**
+ * src: id của switch gửi
+ * dst: id của switch nhận
+ * return: cổng ra
+ */
 int Routing::next(int src, int dst) {
     if (src == dst) {
         return -1;
@@ -129,4 +135,73 @@ void Routing::printPath(int src, int dst) {
         nextPort = next(src, dst);
     }
     cout << dst;
+}
+
+/**
+ * srcName: tên nút gửi (có thể là switch hoặc host)
+ * dstName: tên nút nhận (có thể là switch hoặc host)
+ * return: Cổng ra
+ */
+int Routing::next(const char *srcName, const char *dstName) {
+    int srcId = -1;
+    int dstId = -1;
+    if (hostsMap.find(string(srcName)) != hostsMap.end()) {
+        return 0;
+    }
+    srcId = switchesMap.at(string(srcName));
+
+    if (hostsMap.find(string(dstName)) != hostsMap.end()) {
+        dstId = hostsMap.at(string(dstName));
+        if (conn[srcId][6] == dstId) {
+            return 6;
+        }
+        for (int i = 0; i < 27; i++) {
+            if (conn[i][6] == dstId) {
+                return next(srcId, i);
+            }
+        }
+        return -1;
+    }
+
+    dstId = switchesMap.at(string(dstName));
+    return next(srcId, dstId);
+}
+
+/**
+ * srcName: tên switch gửi
+ * return: bảng định tuyến, ví dụ:
+ * h0_0_0 | 3
+ * h0_0_1 | 2
+ * h0_0_2 | 3
+ * h0_1_0 | 0
+ * h0_1_1 | 0
+ * h0_1_2 | 0
+ * h0_2_0 | 4
+ * h0_2_1 | 2
+ * h0_2_2 | 4
+ * h1_0_0 | 1
+ * h1_0_1 | 1
+ * h1_0_2 | 1
+ * h1_1_0 | 0
+ * h1_1_1 | 0
+ * h1_1_2 | 0
+ * h1_2_0 | 1
+ * h1_2_1 | 1
+ * h1_2_2 | 1
+ * h2_0_0 | 3
+ * h2_0_1 | 2
+ * h2_0_2 | 3
+ * h2_1_0 | 0
+ * h2_1_1 | 0
+ * h2_1_2 | 0
+ * h2_2_0 | 5
+ * h2_2_1 | 2
+ * h2_2_2 | 6
+ */
+map<string, int> Routing::getRoutingTable(const char *srcName) {
+    map<string, int> routingTable;
+    for (int i = 0; i < 27; i++) {
+        routingTable.insert(pair<string, int>(vec[i][7], next(srcName, vec[i][7].c_str())));
+    }
+    return routingTable;
 }
