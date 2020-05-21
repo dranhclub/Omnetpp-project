@@ -2,6 +2,7 @@
 #include <omnetpp.h>
 #include <string>
 #include <queue>
+#include "SendingHost.h"
 
 using namespace omnetpp;
 using namespace std;
@@ -20,6 +21,8 @@ private:
 
     queue<cMessage*> ENB[3]; // Entrance Buffer
     queue<cMessage*> EXB; // Exit Buffer
+
+    int prevENBid = 0;
 protected:
     virtual void initialize() override;
     virtual void handleMessage(cMessage *msg) override;
@@ -64,6 +67,7 @@ void Switch::handleMessage(cMessage *msg) {
         int msgId = msg->par("msgId").longValue();
         EV << "Switch received testMsg id = " << msgId << " at port" << ENBid << endl;
         ENB[ENBid].push(msg);
+        return;
     }
 
     // Chuyển từ ENB sang EXB
@@ -72,9 +76,21 @@ void Switch::handleMessage(cMessage *msg) {
         ENBtoEXB(ENBid);
         delete msg;
 
-        // Báo lại cho hop trước
+        // Sau 1 khoảng thời gian thì báo lại cho hop trước
         cMessage *notifMsg = new cMessage("incNumSpaces");
-        sendDirect(notifMsg, CREDIT_DELAY, 0, hosts[ENBid], "in");
+        prevENBid = ENBid;
+        scheduleAt(simTime() + CREDIT_DELAY, notifMsg);
+        return;
+    }
+
+    // Báo lại cho hop trước
+    if (strcmp(event, "incNumSpaces") == 0) {
+        EV << "ENBid = " << endl;
+        int ENBid = prevENBid;
+        SendingHost *sendingHost = check_and_cast<SendingHost*>(hosts[ENBid]);
+        sendingHost->incNumSpacesOfNextENB();
+        delete msg;
+        return;
     }
 
     // EXB -> next hop
@@ -86,6 +102,7 @@ void Switch::handleMessage(cMessage *msg) {
             send(sentMsg, "out");
         }
         scheduleAt(simTime() + CHANNEL_DELAY, msg);
+        return;
     }
 
     // Chu kỳ hđ của switch
@@ -96,13 +113,13 @@ void Switch::handleMessage(cMessage *msg) {
             if (ENBid != -1) {
                 // Ghi lại ENBid vào event và sau 1 chu kỳ thì chuyển gói tin từ ENB đó sang EXB
                 cMessage *enb2exbNotif = new cMessage("ENBtoEXB");
-                cMsgPar *cMsgP = new cMsgPar("ENBid");
-                cMsgP->setLongValue(ENBid);
-                enb2exbNotif->addPar(cMsgP);
+                enb2exbNotif->addPar("ENBid");
+                enb2exbNotif->par("ENBid").setLongValue(ENBid);
                 scheduleAt(simTime() + OPERATION_TIME_PERIOD, enb2exbNotif);
             }
         }
         scheduleAt(simTime() + OPERATION_TIME_PERIOD, msg);
+        return;
     }
 }
 

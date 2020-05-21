@@ -3,7 +3,6 @@ simple SendingHost
     parameters:
         int EXB_SIZE = 2; // Exit buffer size
     gates:
-        input in @directIn;
         output out;
 }
 

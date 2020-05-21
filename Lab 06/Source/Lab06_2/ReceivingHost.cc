@@ -3,24 +3,10 @@
 #include <iostream>
 #include <string>
 #include <queue>
+#include "ReceivingHost.h"
 
 using namespace omnetpp;
 using namespace std;
-
-class ReceivingHost: public cSimpleModule {
-private:
-    double TIMEOUT;
-    double INTERVAL;
-
-    int *receivedMsgCount;
-    int arrayLength;
-    int intervalCount = 0;
-
-protected:
-    virtual void initialize() override;
-    virtual void finish() override;
-    virtual void handleMessage(cMessage *msg) override;
-};
 
 Define_Module(ReceivingHost);
 
@@ -50,12 +36,14 @@ void ReceivingHost::handleMessage(cMessage *msg) {
         EV << "Switch received testMsg id = " << msgId << endl;
         receivedMsgCount[intervalCount]++;
         delete msg;
+        return;
     }
 
     // Chuyển interval
     if (strcmp(msg->getName(), "nextInterval") == 0) {
         intervalCount++;
         scheduleAt(simTime() + INTERVAL, msg);
+        return;
     }
 
 }

@@ -3,40 +3,10 @@
 #include <iostream>
 #include <string>
 #include <queue>
+#include "SendingHost.h"
 
 using namespace omnetpp;
 using namespace std;
-
-class SendingHost: public cSimpleModule {
-private:
-    // constant
-    int EXB_SIZE;
-    double TIMEOUT;
-    double MSG_GEN_TIME_PERIOD;
-    double CHANNEL_DELAY;
-
-    int lastestMsgId = -1;
-
-    // source queue
-    queue<int> SQ;
-
-    // exit buffer
-    queue<int> EXB;
-
-    // số chỗ trống của ENB của switch
-    int numSpacesOfNextENB;
-
-    void generateMessage();
-    void SQtoEXB(); // Chuyển gói tin từ SQ sang EXB
-    void sendMsg(); // Gửi từ EXB đi sang nút khác
-
-protected:
-    virtual void initialize() override;
-    virtual void handleMessage(cMessage *msg) override;
-
-public:
-    void incNumSpacesOfNextENB();
-};
 
 Define_Module(SendingHost);
 
@@ -51,9 +21,8 @@ void SendingHost::initialize() {
 
     numSpacesOfNextENB = getParentModule()->getModuleByPath(".D")->par("ENB_SIZE").intValue();
 
-    // Bắt đầu quá trình tạo các gói tin
+
     scheduleAt(0, new cMessage("generate"));
-    // Bắt đầu quá trình gửi các gói tin
     scheduleAt(0, new cMessage("send"));
 }
 
@@ -73,13 +42,12 @@ void SendingHost::handleMessage(cMessage *msg) {
         }
 
         scheduleAt(simTime() + MSG_GEN_TIME_PERIOD, msg);
-
+        return;
     }
 
     // Hoạt động của Exit Buffer
     // Gửi tin nhắn theo chu kỳ
     if (strcmp(msg->getName(), "send") == 0) {
-        EV << "numSpaceOfNextENB = " << numSpacesOfNextENB;
         if (numSpacesOfNextENB > 0) {
             sendMsg();
             // Giảm số chỗ trống của ENB kế tiếp đi 1
@@ -87,16 +55,9 @@ void SendingHost::handleMessage(cMessage *msg) {
             SQtoEXB();
 
         }
-
         scheduleAt(simTime() + CHANNEL_DELAY, msg);
+        return;
     }
-
-    // Tin báo tăng từ switch kế
-    if (strcmp(msg->getName(), "incNumSpaces") == 0) {
-        incNumSpacesOfNextENB();
-        delete msg;
-    }
-
 }
 
 void SendingHost::generateMessage() {
@@ -122,9 +83,8 @@ void SendingHost::sendMsg() {
         cMessage *sentMsg = new cMessage("testMsg");
 
         // Gắn id cho gói tin
-        cMsgPar *msgParam = new cMsgPar("msgId");
-        msgParam->setLongValue(sentMsgId);
-        sentMsg->addPar(msgParam);
+        sentMsg->addPar("msgId");
+        sentMsg->par("msgId").setLongValue(sentMsgId);
 
         // Gửi
         send(sentMsg, "out");
