@@ -11,6 +11,7 @@ private:
     double TIMEOUT;
     double CREDIT_DELAY;
     double OPERATION_TIME_PERIOD;
+    double CHANNEL_DELAY;
 
     int ENB_SIZE;
     int EXB_SIZE;
@@ -19,8 +20,6 @@ private:
 
     queue<cMessage*> ENB[3]; // Entrance Buffer
     queue<cMessage*> EXB; // Exit Buffer
-
-    void forwardMessage(cMessage *msg);
 protected:
     virtual void initialize() override;
     virtual void handleMessage(cMessage *msg) override;
@@ -37,6 +36,8 @@ void Switch::initialize() {
     TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
     CREDIT_DELAY = getParentModule()->par("CREDIT_DELAY").doubleValue();
     OPERATION_TIME_PERIOD = par("OPERATION_TIME_PERIOD").doubleValue();
+    CHANNEL_DELAY =
+            ((cDelayChannel*) gate("out")->getChannel())->getDelay().dbl();
     ENB_SIZE = par("ENB_SIZE").intValue();
     EXB_SIZE = par("EXB_SIZE").intValue();
 
@@ -46,6 +47,7 @@ void Switch::initialize() {
     hosts[2] = getParentModule()->getModuleByPath(".C");
 
     scheduleAt(0, new cMessage("nextPeriod"));
+    scheduleAt(0, new cMessage("send"));
 }
 
 void Switch::handleMessage(cMessage *msg) {
@@ -56,7 +58,7 @@ void Switch::handleMessage(cMessage *msg) {
 
     const char *event = msg->getName();
 
-    // Nhận và đếm số gói tin
+    // Nhận gói tin vào các ENB
     if (strcmp(event, "testMsg") == 0) {
         int ENBid = msg->getArrivalGate()->getIndex();
         int msgId = msg->par("msgId").longValue();
@@ -64,29 +66,42 @@ void Switch::handleMessage(cMessage *msg) {
         ENB[ENBid].push(msg);
     }
 
+    // Chuyển từ ENB sang EXB
+    if (strcmp(event, "ENBtoEXB") == 0) {
+        int ENBid = msg->par("ENBid").longValue();
+        ENBtoEXB(ENBid);
+        delete msg;
 
+        // Báo lại cho hop trước
+        cMessage *notifMsg = new cMessage("incNumSpaces");
+        sendDirect(notifMsg, CREDIT_DELAY, 0, hosts[ENBid], "in");
+    }
+
+    // EXB -> next hop
+    if (strcmp(event, "send") == 0) {
+        EV << "sending";
+        if (!EXB.empty()){
+            cMessage *sentMsg = EXB.front();
+            EXB.pop();
+            send(sentMsg, "out");
+        }
+        scheduleAt(simTime() + CHANNEL_DELAY, msg);
+    }
 
     // Chu kỳ hđ của switch
     if (strcmp(event, "nextPeriod") == 0) {
-        // ENB -> EXB
         if (EXB.size() < EXB_SIZE) {
+            // Chọn ra gói tin sẽ được gửi từ ENB sang EXB
             int ENBid = chooseENB();
             if (ENBid != -1) {
-                ENBtoEXB(ENBid);
-
-                // Báo lại
-                cMessage *notifMsg = new cMessage("incNumSpaces");
-                sendDirect(notifMsg, CREDIT_DELAY, 0, hosts[ENBid], "in");
+                // Ghi lại ENBid vào event và sau 1 chu kỳ thì chuyển gói tin từ ENB đó sang EXB
+                cMessage *enb2exbNotif = new cMessage("ENBtoEXB");
+                cMsgPar *cMsgP = new cMsgPar("ENBid");
+                cMsgP->setLongValue(ENBid);
+                enb2exbNotif->addPar(cMsgP);
+                scheduleAt(simTime() + OPERATION_TIME_PERIOD, enb2exbNotif);
             }
         }
-
-        // EXB -> next hop
-        if (!EXB.empty() && gate("out")->getChannel()->isBusy() == false){
-            cMessage *sentMsg = EXB.front();
-            EXB.pop();
-            forwardMessage(sentMsg);
-        }
-
         scheduleAt(simTime() + OPERATION_TIME_PERIOD, msg);
     }
 }
@@ -113,8 +128,4 @@ void Switch::ENBtoEXB(int ENBid) {
     ENB[ENBid].pop();
     EXB.push(msg);
 
-}
-
-void Switch::forwardMessage(cMessage *msg){
-    send(msg, "out");
 }

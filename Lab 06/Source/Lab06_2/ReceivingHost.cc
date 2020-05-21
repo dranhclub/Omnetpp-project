@@ -65,4 +65,12 @@ void ReceivingHost::finish() {
         EV << "interval " << i << ", received " << receivedMsgCount[i]
                   << " messages" << endl;
     }
+    int sum = 0;
+    for (int i = 0; i < arrayLength; i++) {
+        sum += receivedMsgCount[i];
+    }
+    EV << "Interval = " << INTERVAL * 1000 << " ms" << endl;
+    EV << "Tổng số interval: " << arrayLength << endl;
+    EV << "Tổng số gói tin nhận được " << sum << endl;
+    EV << "Số gói tin nhận được trên 1s: " << 1.0 * sum / INTERVAL << endl;
 }

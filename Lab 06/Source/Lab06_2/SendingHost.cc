@@ -79,10 +79,14 @@ void SendingHost::handleMessage(cMessage *msg) {
     // Hoạt động của Exit Buffer
     // Gửi tin nhắn theo chu kỳ
     if (strcmp(msg->getName(), "send") == 0) {
-        sendMsg();
-        // Giảm số chỗ trống của ENB kế tiếp đi 1
-        numSpacesOfNextENB--;
-        SQtoEXB();
+        EV << "numSpaceOfNextENB = " << numSpacesOfNextENB;
+        if (numSpacesOfNextENB > 0) {
+            sendMsg();
+            // Giảm số chỗ trống của ENB kế tiếp đi 1
+            numSpacesOfNextENB--;
+            SQtoEXB();
+
+        }
 
         scheduleAt(simTime() + CHANNEL_DELAY, msg);
     }
@@ -109,7 +113,7 @@ void SendingHost::SQtoEXB() {
 }
 
 void SendingHost::sendMsg() {
-    if (!EXB.empty() && numSpacesOfNextENB > 0) {
+    if (!EXB.empty()) {
         // Lấy ra id gói tin chuẩn bị gửi
         int sentMsgId = EXB.front();
         EXB.pop();
