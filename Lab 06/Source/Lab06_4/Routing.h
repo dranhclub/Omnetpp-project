@@ -11,7 +11,7 @@ protected:
 
     int **conn;
     int size;
-    std::vector<std::vector<std::string>> vec;
+    std::vector<std::vector<std::string>> adjList;
     std::map<std::string, int> switchesMap;
     std::map<std::string, int> hostsMap;
     void init();

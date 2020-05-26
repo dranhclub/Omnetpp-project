@@ -19,7 +19,7 @@ void Host::initialize() {
 }
 
 void Host::handleMessage(cMessage *msg) {
-    string dstName = msg->par("dst").str();
+    string dstName = msg->par("dst").stringValue();
     if (dstName.compare(getName()) == 0) {
         bubble("received testMsg");
     }
