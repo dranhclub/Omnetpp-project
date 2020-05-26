@@ -22,6 +22,10 @@ Routing* Routing::getInstance() {
     return singleton_;
 }
 
+vector<vector<string>> Routing::getAdjList() {
+    return adjList;
+}
+
 void Routing::init() {
 
     /////////////////////////////////////
@@ -35,26 +39,27 @@ void Routing::init() {
         {
             char buffer[7];
             int i = 0;
-            vec.push_back(*new vector<string>);
+            adjList.push_back(*new vector<string>);
             for (auto it = line.begin(); it != line.end(); it++) {
                 if (*it != ' ') {
                     buffer[i++] = *it;
                 }
                 else {
                     string s = string(buffer, i);
-                    vec.back().push_back(s);
+                    adjList.back().push_back(s);
                     i = 0;
                 }
             }
             string s = string(buffer, i);
-            vec.back().push_back(s);
+            adjList.back().push_back(s);
         }
         myfile.close();
     }
+    else {
+        throw "Unable to open file";
+    }
 
-    //throw "Unable to open file";
-
-    for (auto v : vec) {
+    for (auto v : adjList) {
         for (auto s : v) {
             cout << s << " ";
         }
@@ -62,7 +67,7 @@ void Routing::init() {
     }
 
     int k = 0;
-    for (auto line : vec) {
+    for (auto line : adjList) {
         switchesMap.insert(pair<string, int>(line.front(), k));
         hostsMap.insert(pair<string, int>(line.back(), 1000 + k));
         k++;
@@ -71,18 +76,18 @@ void Routing::init() {
     /////////////////////////////////////
     // Init connections matrix
 
-    size = vec.size();
+    size = adjList.size();
     conn = new int* [size];
 
-    for (int i = 0; i < vec.size(); i++) {
+    for (int i = 0; i < adjList.size(); i++) {
         conn[i] = new int[7];
         for (int j = 0; j < 6; j++) {
-            conn[i][j] = switchesMap.at(vec[i][j + 1]);
+            conn[i][j] = switchesMap.at(adjList[i][j + 1]);
         }
-        conn[i][6] = hostsMap.at(vec[i][7]);
+        conn[i][6] = hostsMap.at(adjList[i][7]);
     }
 
-    for (int i = 0; i < vec.size(); i++) {
+    for (int i = 0; i < adjList.size(); i++) {
         for (int j = 0; j < 7; j++) {
             cout << conn[i][j] << " ";
         }
@@ -201,7 +206,9 @@ int Routing::next(const char *srcName, const char *dstName) {
 map<string, int> Routing::getRoutingTable(const char *srcName) {
     map<string, int> routingTable;
     for (int i = 0; i < 27; i++) {
-        routingTable.insert(pair<string, int>(vec[i][7], next(srcName, vec[i][7].c_str())));
+        routingTable.insert(pair<string, int>(adjList[i][7], next(srcName, adjList[i][7].c_str())));
     }
     return routingTable;
 }
+
+

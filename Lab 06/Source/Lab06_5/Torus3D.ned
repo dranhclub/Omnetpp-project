@@ -1,7 +1,8 @@
 simple Host
 {
     parameters:
-        int EXB_SIZE = 2; // Exit buffer size
+        int EXB_SIZE = 2;
+        int ENB_SIZE = 2;
 	gates:
 	    inout port[];
 }
@@ -10,7 +11,7 @@ simple Switch
 {
     parameters:
         int EXB_SIZE = 2;
-        int ENB_SIZE = 2; // Entrance buffer size
+        int ENB_SIZE = 2;
         double OPERATION_TIME_PERIOD = 0.005;
     gates:
         inout port[];

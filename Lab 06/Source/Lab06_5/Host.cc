@@ -137,7 +137,6 @@ void Host::finish() {
 
 void Host::generateMessage() {
     SQ.push(++lastestMsgId);
-    EV << "message generated" << endl;
 }
 
 void Host::SQtoEXB() {

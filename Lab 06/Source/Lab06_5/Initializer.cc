@@ -1,10 +1,10 @@
 #include "Initializer.h"
 #include <vector>
 #include <string>
-#include <iostream>     // std::cout
-#include <algorithm>    // std::shuffle
-#include <random>       // std::default_random_engine
-#include <chrono>       // std::chrono::system_clock
+#include <iostream>
+#include <algorithm>
+#include <random>
+#include <chrono>
 
 using namespace std;
 
@@ -17,6 +17,9 @@ Initializer* Initializer::getInstance() {
     return singleton_;
 }
 
+/**
+ * Xáo trộn danh sách các host
+ */
 Initializer::Initializer() {
     seed = std::chrono::system_clock::now().time_since_epoch().count();
 
@@ -32,13 +35,13 @@ Initializer::Initializer() {
 
     shuffle(hostNames.begin(), hostNames.end(),
             std::default_random_engine(seed));
-
-    std::cout << "shuffled elements:";
-    for (auto &x : hostNames)
-        std::cout << ' ' << x;
-    std::cout << '\n';
 }
 
+/**
+ * Lấy ra nhiệm vụ của một host (gửi / nhận)
+ * hostName: tên host
+ * return: true nếu là host gửi, false nếu là host nhận
+ */
 bool Initializer::getDuty(std::string hostName) {
     for (int i = 0; i < hostNames.size() / 2; i++) {
         if (hostNames[i].compare(hostName) == 0) {
@@ -48,6 +51,11 @@ bool Initializer::getDuty(std::string hostName) {
     return false;
 }
 
+/**
+ * Lấy ra nút cặp với host hiện tại
+ * hostName: tên host
+ * return: tên host còn lại
+ */
 string Initializer::getPairHostName(std::string hostName) {
     int thisIndex = -1;
     int size = hostNames.size();
