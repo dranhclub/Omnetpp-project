@@ -24,8 +24,10 @@ private:
     int lastestMsgId = -1;
 
     int *receivedMsgCount;
-    int arrayLength;
-    int intervalCount = 0;
+    int numInterval;
+    int interval = 0;
+
+    static int *recvMsgCountSum;
 
     // source queue
     queue<int> SQ;

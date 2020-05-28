@@ -1,5 +1,6 @@
 #include <string.h>
 #include <omnetpp.h>
+#include <fstream>
 #include <string>
 #include <queue>
 #include "Host.h"
@@ -10,6 +11,8 @@ using namespace std;
 
 Define_Module(Host);
 
+int *Host::recvMsgCountSum = nullptr;
+
 void Host::initialize() {
     // Paring
     Initializer *initializer = Initializer::getInstance();
@@ -18,39 +21,31 @@ void Host::initialize() {
     EV << "isSender = " << isSender << endl;
     EV << "pairHostName = " << pairHostName << endl;
 
-    /**************************************
-     *               SENDER
-     */
+
+    // Thiết lập các hằng số
+    MSG_GEN_TIME_PERIOD =
+            getParentModule()->par("MSG_GEN_TIME_PERIOD").doubleValue();
+    TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
+    EXB_SIZE = par("EXB_SIZE").intValue();
+    CHANNEL_DELAY = 0.0001;
+    INTERVAL = getParentModule()->par("INTERVAL").doubleValue();
+    numSpacesOfNextENB = getParentModule()->getModuleByPath(".sw0_0_0")->par("ENB_SIZE").intValue();
+
+    // Khởi tạo mảng lưu kết quả
+    numInterval = TIMEOUT / INTERVAL;
+    receivedMsgCount = new int[numInterval];
+    memset(receivedMsgCount, 0, numInterval * sizeof(int));
+    if (recvMsgCountSum == nullptr) {
+        recvMsgCountSum = new int[numInterval]{0};
+    }
+
     if (isSender) {
-        // Thiết lập các hằng số
-        MSG_GEN_TIME_PERIOD =
-                getParentModule()->par("MSG_GEN_TIME_PERIOD").doubleValue();
-        TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
-        EXB_SIZE = par("EXB_SIZE").intValue();
-        CHANNEL_DELAY = 0.0001;
-
-        string myName = getName();
-        numSpacesOfNextENB = getParentModule()->getModuleByPath(".sw0_0_0")->par("ENB_SIZE").intValue();
-
         scheduleAt(0, new cMessage("generate"));
         scheduleAt(0, new cMessage("send"));
     }
-    /**************************************
-     *              RECEIVER
-     */
     else {
-        // Thiết lập hằng số
-        TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
-        INTERVAL = getParentModule()->par("INTERVAL").doubleValue();
-
-        // Khởi tạo mảng lưu kết quả
-        arrayLength = TIMEOUT / INTERVAL;
-        receivedMsgCount = new int[arrayLength];
-        memset(receivedMsgCount, 0, arrayLength * sizeof(int));
-
         scheduleAt(0, new cMessage("nextInterval"));
     }
-
 }
 
 void Host::handleMessage(cMessage *msg) {
@@ -105,14 +100,14 @@ void Host::handleMessage(cMessage *msg) {
         if (strcmp(msg->getName(), "testMsg") == 0) {
             int msgId = msg->par("msgId").longValue();
             EV << "Switch received testMsg id = " << msgId << endl;
-            receivedMsgCount[intervalCount]++;
+            receivedMsgCount[interval]++;
             delete msg;
             return;
         }
 
         // Chuyển interval
         if (strcmp(msg->getName(), "nextInterval") == 0) {
-            intervalCount++;
+            interval++;
             scheduleAt(simTime() + INTERVAL, msg);
             return;
         }
@@ -122,11 +117,22 @@ void Host::handleMessage(cMessage *msg) {
 void Host::finish() {
     if (!isSender) {
         int sum = 0;
-        for (int i = 0; i < arrayLength; i++) {
+        for (int i = 0; i < numInterval; i++) {
             sum += receivedMsgCount[i];
+            recvMsgCountSum[i] += receivedMsgCount[i];
         }
         EV << "Số gói tin nhận được: " << sum << endl;
         EV << "-------------------" << endl;
+    }
+
+    if (strcmp(getName(), "h2_2_2") == 0) {
+        FILE *fp;
+
+        fp = fopen("./Result.txt", "w");
+        for (int i = 0; i < numInterval; i++) {
+            fprintf(fp, "%d ", recvMsgCountSum[i]);
+        }
+        fclose(fp);
     }
 }
 
