@@ -27,8 +27,7 @@ void Host::initialize() {
                 getParentModule()->par("MSG_GEN_TIME_PERIOD").doubleValue();
         TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
         EXB_SIZE = par("EXB_SIZE").intValue();
-        CHANNEL_DELAY =
-                ((cDelayChannel*) gate("port$o", 0)->getChannel())->getDelay().dbl();
+        CHANNEL_DELAY = 0.0001;
 
         string myName = getName();
         numSpacesOfNextENB = getParentModule()->getModuleByPath(".sw0_0_0")->par("ENB_SIZE").intValue();
@@ -61,6 +60,7 @@ void Host::handleMessage(cMessage *msg) {
     if (isSender) {
         // Kiểm tra TIMEOUT
         if (simTime() >= TIMEOUT) {
+            delete msg;
             return;
         }
 
@@ -97,6 +97,7 @@ void Host::handleMessage(cMessage *msg) {
     else {
         // Kiểm tra TIMEOUT
         if (simTime() >= TIMEOUT) {
+            delete msg;
             return;
         }
 
@@ -120,18 +121,12 @@ void Host::handleMessage(cMessage *msg) {
 
 void Host::finish() {
     if (!isSender) {
-        for (int i = 0; i < arrayLength; i++) {
-            EV << "interval " << i << ", received " << receivedMsgCount[i]
-                      << " messages" << endl;
-        }
         int sum = 0;
         for (int i = 0; i < arrayLength; i++) {
             sum += receivedMsgCount[i];
         }
-        EV << "Interval = " << INTERVAL * 1000 << " ms" << endl;
-        EV << "Tổng số interval: " << arrayLength << endl;
-        EV << "Tổng số gói tin nhận được " << sum << endl;
-        EV << "Số gói tin nhận được trên 1s: " << 1.0 * sum / INTERVAL << endl;
+        EV << "Số gói tin nhận được: " << sum << endl;
+        EV << "-------------------" << endl;
     }
 }
 
@@ -154,18 +149,21 @@ void Host::sendMsg() {
         EXB.pop();
 
         // Tạo gói tin (giả lập)
-        cMessage *sentMsg = new cMessage("testMsg");
+        cPacket *packet = new cPacket("testMsg");
+
+        // Kích thước gói tin: 100Mbps
+        packet->setBitLength(100000);
 
         // Gắn id cho gói tin
-        sentMsg->addPar("msgId");
-        sentMsg->par("msgId").setLongValue(sentMsgId);
+        packet->addPar("msgId");
+        packet->par("msgId").setLongValue(sentMsgId);
 
         // Gắn địa chỉ đích
-        sentMsg->addPar("dst");
-        sentMsg->par("dst").setStringValue(pairHostName.c_str());
+        packet->addPar("dst");
+        packet->par("dst").setStringValue(pairHostName.c_str());
 
         // Gửi
-        send(sentMsg, "port$o", 0);
+        send(packet, "port$o", 0);
     }
 }
 

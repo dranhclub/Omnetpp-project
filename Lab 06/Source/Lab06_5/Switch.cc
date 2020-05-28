@@ -19,9 +19,8 @@ void Switch::initialize() {
 
     TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
     CREDIT_DELAY = getParentModule()->par("CREDIT_DELAY").doubleValue();
+    CHANNEL_DELAY = 0.0001;
     OPERATION_TIME_PERIOD = par("OPERATION_TIME_PERIOD").doubleValue();
-    CHANNEL_DELAY =
-            ((cDelayChannel*) gate("port$o", 0)->getChannel())->getDelay().dbl();
     ENB_SIZE = par("ENB_SIZE").intValue();
     EXB_SIZE = par("EXB_SIZE").intValue();
 
@@ -45,6 +44,7 @@ void Switch::initialize() {
         numSpacesOfNextENB[i] = ENB_SIZE;
     }
 
+
     // Bắt đầu
     scheduleAt(0, new cMessage("nextPeriod"));
     scheduleAt(0, new cMessage("send"));
@@ -53,6 +53,7 @@ void Switch::initialize() {
 void Switch::handleMessage(cMessage *msg) {
     // Kiểm tra TIMEOUT
     if (simTime() >= TIMEOUT) {
+        delete msg;
         return;
     }
 
@@ -113,11 +114,12 @@ void Switch::handleMessage(cMessage *msg) {
             }
         }
         scheduleAt(simTime() + CHANNEL_DELAY, msg);
+        //scheduleAt(gate("port$o", 0)->getTransmissionChannel()->getTransmissionFinishTime(), msg);
         return;
     }
 
     // Chu kỳ hđ của switch
-    if (strcmp(event, "nextPeriod") == 0) {
+    if (strcmp(event, "nextPeriod") == 0){
         for (int i = 0; i < 7; i++) {
             if (EXB[i].size() < EXB_SIZE) {
                 // Chọn ra gói tin sẽ được gửi từ ENB sang EXB
@@ -136,6 +138,10 @@ void Switch::handleMessage(cMessage *msg) {
         scheduleAt(simTime() + OPERATION_TIME_PERIOD, msg);
         return;
     }
+}
+
+void Switch::finish() {
+
 }
 
 /**

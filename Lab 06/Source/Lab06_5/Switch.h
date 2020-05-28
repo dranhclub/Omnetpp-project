@@ -33,6 +33,7 @@ private:
 protected:
     virtual void initialize() override;
     virtual void handleMessage(cMessage *msg) override;
+    virtual void finish() override;
 
     int chooseENB(int EXBid); // Gói tin tiếp theo được chuyển sang EXB nằm ở ENB nào?
     void ENBtoEXB(int ENBid, int EXBid); // Chuyển từ ENB sang EXB

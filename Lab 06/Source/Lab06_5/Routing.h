@@ -10,6 +10,9 @@ protected:
     Routing();
     static Routing *singleton_;
 
+    // Kích thước của mạng Torus3D
+    int N = 3;
+
     // Ma trận kết nối
     int **conn;
     int size;

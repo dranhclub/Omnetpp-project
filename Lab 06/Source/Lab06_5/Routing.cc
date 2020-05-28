@@ -160,7 +160,7 @@ int Routing::next(const char *srcName, const char *dstName) {
         if (conn[srcId][6] == dstId) {
             return 6;
         }
-        for (int i = 0; i < 27; i++) {
+        for (int i = 0; i < N*N*N; i++) {
             if (conn[i][6] == dstId) {
                 return next(srcId, i);
             }
@@ -173,39 +173,12 @@ int Routing::next(const char *srcName, const char *dstName) {
 }
 
 /**
- * srcName: tên switch gửi
- * return: bảng định tuyến, ví dụ:
- * h0_0_0 | 3
- * h0_0_1 | 2
- * h0_0_2 | 3
- * h0_1_0 | 0
- * h0_1_1 | 0
- * h0_1_2 | 0
- * h0_2_0 | 4
- * h0_2_1 | 2
- * h0_2_2 | 4
- * h1_0_0 | 1
- * h1_0_1 | 1
- * h1_0_2 | 1
- * h1_1_0 | 0
- * h1_1_1 | 0
- * h1_1_2 | 0
- * h1_2_0 | 1
- * h1_2_1 | 1
- * h1_2_2 | 1
- * h2_0_0 | 3
- * h2_0_1 | 2
- * h2_0_2 | 3
- * h2_1_0 | 0
- * h2_1_1 | 0
- * h2_1_2 | 0
- * h2_2_0 | 5
- * h2_2_1 | 2
- * h2_2_2 | 6
+ * srcName: tên switch
+ * return: bảng định tuyến
  */
 map<string, int> Routing::getRoutingTable(const char *srcName) {
     map<string, int> routingTable;
-    for (int i = 0; i < 27; i++) {
+    for (int i = 0; i < N*N*N; i++) {
         routingTable.insert(pair<string, int>(adjList[i][7], next(srcName, adjList[i][7].c_str())));
     }
     return routingTable;
