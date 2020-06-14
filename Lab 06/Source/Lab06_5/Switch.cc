@@ -113,7 +113,7 @@ void Switch::handleMessage(cMessage *msg) {
                 send(sentMsg, "port$o", i);
             }
         }
-        scheduleAt(simTime() + CHANNEL_DELAY, msg);
+        scheduleAt(simTime() + CHANNEL_DELAY + OPERATION_TIME_PERIOD, msg);
         //scheduleAt(gate("port$o", 0)->getTransmissionChannel()->getTransmissionFinishTime(), msg);
         return;
     }

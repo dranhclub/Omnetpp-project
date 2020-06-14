@@ -157,7 +157,7 @@ void Host::sendMsg() {
         // Tạo gói tin (giả lập)
         cPacket *packet = new cPacket("testMsg");
 
-        // Kích thước gói tin: 100Mbps
+        // Kích thước gói tin: 100Kb
         packet->setBitLength(100000);
 
         // Gắn id cho gói tin
