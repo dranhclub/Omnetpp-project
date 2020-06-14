@@ -1,4 +1,4 @@
-package torus3d;
+package torus;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -19,8 +19,12 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        Torus3DGenerator generator = new Torus3DGenerator(3);
-        writeToFile(generator.generateNED(), "../Torus3D.ned");
+//        TorusGenerator generator = new Torus3DGenerator(3);
+//        writeToFile(generator.generateNED(), "../Torus3D.ned");
+//        writeToFile(generator.getConnectionsList(), "../ConnectionsList.txt");
+
+        TorusGenerator generator = new Torus2DGenerator(3);
+        writeToFile(generator.generateNED(), "../Torus2D.ned");
         writeToFile(generator.getConnectionsList(), "../ConnectionsList.txt");
     }
 }

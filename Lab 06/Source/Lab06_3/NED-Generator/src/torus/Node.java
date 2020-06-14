@@ -1,4 +1,4 @@
-package torus3d;
+package torus;
 
 import java.util.ArrayList;
 import java.util.List;

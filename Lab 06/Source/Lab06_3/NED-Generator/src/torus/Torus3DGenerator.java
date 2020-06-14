@@ -1,15 +1,10 @@
-package torus3d;
+package torus;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
-public class Torus3DGenerator {
-    private final int K;
+public class Torus3DGenerator extends TorusGenerator{
     private final double SCALE = 200;
     private final double OFFSET = 200;
     private final double SKEW_X = 80;
@@ -20,7 +15,7 @@ public class Torus3DGenerator {
     private ArrayList<Connection> connections = new ArrayList<>();
 
     public Torus3DGenerator(int k) {
-        K = k;
+        super(k);
         createSwitches();
         createHosts();
         createConnections();

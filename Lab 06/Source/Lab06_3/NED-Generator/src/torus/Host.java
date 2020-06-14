@@ -1,4 +1,4 @@
-package torus3d;
+package torus;
 
 public class Host extends Node{
 
