@@ -101,7 +101,7 @@ void Switch::handleMessage(cMessage *msg) {
             EXB.pop();
             send(sentMsg, "out");
         }
-        scheduleAt(simTime() + CHANNEL_DELAY, msg);
+        scheduleAt(simTime() + CHANNEL_DELAY + OPERATION_TIME_PERIOD, msg);
         return;
     }
 
