@@ -19,7 +19,7 @@ void Switch::initialize() {
 
     TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
     CREDIT_DELAY = getParentModule()->par("CREDIT_DELAY").doubleValue();
-    CHANNEL_DELAY = 0.0001;
+    CHANNEL_DELAY = 0.0001; // = 100Kb / 1Gbps
     OPERATION_TIME_PERIOD = par("OPERATION_TIME_PERIOD").doubleValue();
     ENB_SIZE = par("ENB_SIZE").intValue();
     EXB_SIZE = par("EXB_SIZE").intValue();
@@ -35,12 +35,12 @@ void Switch::initialize() {
     if (t == -1) {
         throw "Not found this module name in list";
     }
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < LINE_LENGTH - 1; i++) {
         neighbors[i] = getParentModule()->getModuleByPath((string(".") + adjList[t][i+1]).c_str());
     }
 
     // Khởi tạo mảng counter
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < LINE_LENGTH - 2; i++) {
         numSpacesOfNextENB[i] = ENB_SIZE;
     }
 
@@ -103,8 +103,8 @@ void Switch::handleMessage(cMessage *msg) {
 
     // EXB -> next hop
     if (strcmp(event, "send") == 0) {
-        for (int i = 0; i < 7; i++) {
-            if (i < 6 && numSpacesOfNextENB[i] <= 0) {
+        for (int i = 0; i < LINE_LENGTH - 1; i++) {
+            if (i < LINE_LENGTH - 2 && numSpacesOfNextENB[i] <= 0) {
                 continue;
             }
             if (!EXB[i].empty()) {
@@ -120,7 +120,7 @@ void Switch::handleMessage(cMessage *msg) {
 
     // Chu kỳ hđ của switch
     if (strcmp(event, "nextPeriod") == 0){
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < LINE_LENGTH - 1; i++) {
             if (EXB[i].size() < EXB_SIZE) {
                 // Chọn ra gói tin sẽ được gửi từ ENB sang EXB
                 int ENBid = chooseENB(i);
@@ -163,7 +163,7 @@ void Switch::printRoutingTable() {
 int Switch::chooseENB(int EXBid) {
     int minMsgId = INT32_MAX;
     int ENBid = -1;
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < LINE_LENGTH - 1; i++) {
         if (!ENB[i].empty()) {
             cMessage *msg = ENB[i].front();
             string dstName = string(msg->par("dst").stringValue());
@@ -205,7 +205,7 @@ void Switch::incNumSpacesOfNextENB(const char* switchName) {
     if (t == -1) {
         throw "Not found this module name in list";
     }
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < LINE_LENGTH - 2; i++) {
         if (adjList[t][i+1].compare(switchName) == 0) {
             numSpacesOfNextENB[i]++;
             EV << "numSp " << i << " = " << numSpacesOfNextENB[i];

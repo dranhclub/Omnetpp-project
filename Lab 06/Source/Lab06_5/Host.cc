@@ -27,7 +27,7 @@ void Host::initialize() {
             getParentModule()->par("MSG_GEN_TIME_PERIOD").doubleValue();
     TIMEOUT = getParentModule()->par("TIMEOUT").doubleValue();
     EXB_SIZE = par("EXB_SIZE").intValue();
-    CHANNEL_DELAY = 0.0001;
+    CHANNEL_DELAY = 0.0001; // = 100Kb / 1Gbps
     INTERVAL = getParentModule()->par("INTERVAL").doubleValue();
     numSpacesOfNextENB = getParentModule()->getModuleByPath(".sw0_0_0")->par("ENB_SIZE").intValue();
 
@@ -125,7 +125,7 @@ void Host::finish() {
         EV << "-------------------" << endl;
     }
 
-    if (strcmp(getName(), "h2_2_2") == 0) {
+    if (strcmp(getName(), "h2_2_0") == 0) {
         FILE *fp;
 
         fp = fopen("./Result.txt", "w");

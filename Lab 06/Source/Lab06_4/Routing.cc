@@ -22,6 +22,10 @@ Routing* Routing::getInstance() {
     return singleton_;
 }
 
+vector<vector<string>> Routing::getAdjList() {
+    return adjList;
+}
+
 void Routing::init() {
 
     /////////////////////////////////////
@@ -156,7 +160,7 @@ int Routing::next(const char *srcName, const char *dstName) {
         if (conn[srcId][lineLength - 2] == dstId) {
             return lineLength - 2;
         }
-        for (int i = 0; i < 27; i++) {
+        for (int i = 0; i < numSwitch; i++) {
             if (conn[i][lineLength - 2] == dstId) {
                 return next(srcId, i);
             }
@@ -174,7 +178,7 @@ int Routing::next(const char *srcName, const char *dstName) {
  */
 map<string, int> Routing::getRoutingTable(const char *srcName) {
     map<string, int> routingTable;
-    for (int i = 0; i < 27; i++) {
+    for (int i = 0; i < numSwitch; i++) {
         routingTable.insert(pair<string, int>(adjList[i][lineLength - 1], next(srcName, adjList[i][lineLength - 1].c_str())));
     }
     return routingTable;

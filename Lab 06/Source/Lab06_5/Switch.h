@@ -7,6 +7,10 @@
 #include <queue>
 #include "Routing.h"
 
+//Torus 2D: LINE_LENGTH = 6
+//Torus 2D: LINE_LENGTH = 8
+#define LINE_LENGTH 6
+
 using namespace omnetpp;
 using namespace std;
 
@@ -20,12 +24,12 @@ private:
     int ENB_SIZE;
     int EXB_SIZE;
 
-    cModule *neighbors[7]; // mỗi nút đều kết nối với 7 nút khác (6 switch + 1 host)
+    cModule *neighbors[LINE_LENGTH - 1]; // mỗi nút đều kết nối với 7 nút khác (6 switch + 1 host)
 
-    queue<cMessage*> ENB[7];
-    queue<cMessage*> EXB[7];
+    queue<cMessage*> ENB[LINE_LENGTH - 1];
+    queue<cMessage*> EXB[LINE_LENGTH - 1];
 
-    int numSpacesOfNextENB[6]; // 6 biến đếm tương ứng 6 switch đc kết nối.
+    int numSpacesOfNextENB[LINE_LENGTH - 2]; // 6 biến đếm tương ứng 6 switch đc kết nối.
 
     map<string, int> routingTable;
 

@@ -55,9 +55,8 @@ void Routing::init() {
         }
         myfile.close();
     }
-    else {
-        throw "Unable to open file";
-    }
+
+    else cout << "Unable to open file";
 
     for (auto v : adjList) {
         for (auto s : v) {
@@ -76,19 +75,20 @@ void Routing::init() {
     /////////////////////////////////////
     // Init connections matrix
 
-    size = adjList.size();
-    conn = new int* [size];
+    numSwitch = adjList.size();
+    conn = new int* [numSwitch];
+    lineLength = adjList[0].size();
 
-    for (int i = 0; i < adjList.size(); i++) {
-        conn[i] = new int[7];
-        for (int j = 0; j < 6; j++) {
+    for (int i = 0; i < numSwitch; i++) {
+        conn[i] = new int[lineLength - 1];
+        for (int j = 0; j < lineLength - 2; j++) {
             conn[i][j] = switchesMap.at(adjList[i][j + 1]);
         }
-        conn[i][6] = hostsMap.at(adjList[i][7]);
+        conn[i][lineLength - 2] = hostsMap.at(adjList[i][lineLength - 1]);
     }
 
-    for (int i = 0; i < adjList.size(); i++) {
-        for (int j = 0; j < 7; j++) {
+    for (int i = 0; i < numSwitch; i++) {
+        for (int j = 0; j < lineLength - 1; j++) {
             cout << conn[i][j] << " ";
         }
         cout << endl;
@@ -104,9 +104,9 @@ int Routing::next(int src, int dst) {
     if (src == dst) {
         return -1;
     }
-    bool* visited = new bool[size] {false};
+    bool* visited = new bool[numSwitch] {false};
     queue<list<pair<int, int>>> myqueue;
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < lineLength - 2; i++) {
         list<pair<int, int>> l1;
         l1.push_back(pair<int, int>(conn[src][i], i));
         myqueue.push(l1);
@@ -119,7 +119,7 @@ int Routing::next(int src, int dst) {
         if (hop == dst) {
             return l1.front().second;
         }
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < lineLength - 2; i++) {
             if (!visited[conn[hop][i]]) {
                 list<pair<int, int>> l2(l1);
                 l2.push_back(pair<int, int>(conn[hop][i], i));
@@ -157,11 +157,11 @@ int Routing::next(const char *srcName, const char *dstName) {
 
     if (hostsMap.find(string(dstName)) != hostsMap.end()) {
         dstId = hostsMap.at(string(dstName));
-        if (conn[srcId][6] == dstId) {
-            return 6;
+        if (conn[srcId][lineLength - 2] == dstId) {
+            return lineLength - 2;
         }
-        for (int i = 0; i < N*N*N; i++) {
-            if (conn[i][6] == dstId) {
+        for (int i = 0; i < numSwitch; i++) {
+            if (conn[i][lineLength - 2] == dstId) {
                 return next(srcId, i);
             }
         }
@@ -173,15 +173,13 @@ int Routing::next(const char *srcName, const char *dstName) {
 }
 
 /**
- * srcName: tên switch
+ * srcName: tên switch gửi
  * return: bảng định tuyến
  */
 map<string, int> Routing::getRoutingTable(const char *srcName) {
     map<string, int> routingTable;
-    for (int i = 0; i < N*N*N; i++) {
-        routingTable.insert(pair<string, int>(adjList[i][7], next(srcName, adjList[i][7].c_str())));
+    for (int i = 0; i < numSwitch; i++) {
+        routingTable.insert(pair<string, int>(adjList[i][lineLength - 1], next(srcName, adjList[i][lineLength - 1].c_str())));
     }
     return routingTable;
 }
-
-

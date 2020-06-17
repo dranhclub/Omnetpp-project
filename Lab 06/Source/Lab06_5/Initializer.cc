@@ -6,6 +6,8 @@
 #include <random>
 #include <chrono>
 
+#define TORUS2D
+
 using namespace std;
 
 Initializer *Initializer::singleton_ = nullptr;
@@ -23,6 +25,7 @@ Initializer* Initializer::getInstance() {
 Initializer::Initializer() {
     seed = std::chrono::system_clock::now().time_since_epoch().count();
 
+#ifndef TORUS2D
     for (int x = 0; x < N; x++) {
         for (int y = 0; y < N; y++) {
             for (int z = 0; z < N; z++) {
@@ -32,6 +35,15 @@ Initializer::Initializer() {
             }
         }
     }
+#else
+    for (int x = 0; x < N; x++) {
+        for (int y = 0; y < N; y++) {
+            char name[10];
+            sprintf(name, "h%d_%d_%d", x, y, 0);
+            hostNames.push_back(string(name));
+        }
+    }
+#endif
 
     shuffle(hostNames.begin(), hostNames.end(),
             std::default_random_engine(seed));

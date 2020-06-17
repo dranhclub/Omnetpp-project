@@ -25,6 +25,7 @@ public:
     void operator=(const Routing&) = delete;
 
     static Routing* getInstance();
+    std::vector<std::vector<std::string>> getAdjList();
     std::map<std::string, int> getRoutingTable(const char *srcName);
 };
 #endif /* ROUTING_H_ */
