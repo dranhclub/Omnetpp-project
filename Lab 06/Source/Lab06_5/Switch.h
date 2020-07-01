@@ -8,8 +8,8 @@
 #include "Routing.h"
 
 //Torus 2D: LINE_LENGTH = 6
-//Torus 2D: LINE_LENGTH = 8
-#define LINE_LENGTH 6
+//Torus 3D: LINE_LENGTH = 8
+#define LINE_LENGTH 8
 
 using namespace omnetpp;
 using namespace std;

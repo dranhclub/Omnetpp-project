@@ -6,7 +6,7 @@
 #include <random>
 #include <chrono>
 
-#define TORUS2D
+#define TORUS3D
 
 using namespace std;
 
@@ -23,6 +23,10 @@ Initializer* Initializer::getInstance() {
  * Xáo trộn danh sách các host
  */
 Initializer::Initializer() {
+    randomize();
+}
+
+void Initializer::randomize() {
     seed = std::chrono::system_clock::now().time_since_epoch().count();
 
 #ifndef TORUS2D
@@ -48,6 +52,7 @@ Initializer::Initializer() {
     shuffle(hostNames.begin(), hostNames.end(),
             std::default_random_engine(seed));
 }
+
 
 /**
  * Lấy ra nhiệm vụ của một host (gửi / nhận)

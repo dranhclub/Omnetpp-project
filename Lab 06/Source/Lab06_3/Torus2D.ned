@@ -21,47 +21,82 @@ network Torus2D
     submodules:		sw0_0_0: Switch { @display("p=200.0,200.0;i=abstract/switch"); }
 		sw0_1_0: Switch { @display("p=200.0,400.0;i=abstract/switch"); }
 		sw0_2_0: Switch { @display("p=200.0,600.0;i=abstract/switch"); }
+		sw0_3_0: Switch { @display("p=200.0,800.0;i=abstract/switch"); }
 		sw1_0_0: Switch { @display("p=400.0,200.0;i=abstract/switch"); }
 		sw1_1_0: Switch { @display("p=400.0,400.0;i=abstract/switch"); }
 		sw1_2_0: Switch { @display("p=400.0,600.0;i=abstract/switch"); }
+		sw1_3_0: Switch { @display("p=400.0,800.0;i=abstract/switch"); }
 		sw2_0_0: Switch { @display("p=600.0,200.0;i=abstract/switch"); }
 		sw2_1_0: Switch { @display("p=600.0,400.0;i=abstract/switch"); }
 		sw2_2_0: Switch { @display("p=600.0,600.0;i=abstract/switch"); }
+		sw2_3_0: Switch { @display("p=600.0,800.0;i=abstract/switch"); }
+		sw3_0_0: Switch { @display("p=800.0,200.0;i=abstract/switch"); }
+		sw3_1_0: Switch { @display("p=800.0,400.0;i=abstract/switch"); }
+		sw3_2_0: Switch { @display("p=800.0,600.0;i=abstract/switch"); }
+		sw3_3_0: Switch { @display("p=800.0,800.0;i=abstract/switch"); }
 		h0_0_0: Host { @display("p=170.0,170.0;i=abstract/server;is=s"); }
 		h0_1_0: Host { @display("p=170.0,370.0;i=abstract/server;is=s"); }
 		h0_2_0: Host { @display("p=170.0,570.0;i=abstract/server;is=s"); }
+		h0_3_0: Host { @display("p=170.0,770.0;i=abstract/server;is=s"); }
 		h1_0_0: Host { @display("p=370.0,170.0;i=abstract/server;is=s"); }
 		h1_1_0: Host { @display("p=370.0,370.0;i=abstract/server;is=s"); }
 		h1_2_0: Host { @display("p=370.0,570.0;i=abstract/server;is=s"); }
+		h1_3_0: Host { @display("p=370.0,770.0;i=abstract/server;is=s"); }
 		h2_0_0: Host { @display("p=570.0,170.0;i=abstract/server;is=s"); }
 		h2_1_0: Host { @display("p=570.0,370.0;i=abstract/server;is=s"); }
 		h2_2_0: Host { @display("p=570.0,570.0;i=abstract/server;is=s"); }
+		h2_3_0: Host { @display("p=570.0,770.0;i=abstract/server;is=s"); }
+		h3_0_0: Host { @display("p=770.0,170.0;i=abstract/server;is=s"); }
+		h3_1_0: Host { @display("p=770.0,370.0;i=abstract/server;is=s"); }
+		h3_2_0: Host { @display("p=770.0,570.0;i=abstract/server;is=s"); }
+		h3_3_0: Host { @display("p=770.0,770.0;i=abstract/server;is=s"); }
 	connections:
 		sw0_0_0.port++ <--> Channel <--> sw0_1_0.port++;
 		sw0_1_0.port++ <--> Channel <--> sw0_2_0.port++;
+		sw0_2_0.port++ <--> Channel <--> sw0_3_0.port++;
 		sw1_0_0.port++ <--> Channel <--> sw1_1_0.port++;
 		sw1_1_0.port++ <--> Channel <--> sw1_2_0.port++;
+		sw1_2_0.port++ <--> Channel <--> sw1_3_0.port++;
 		sw2_0_0.port++ <--> Channel <--> sw2_1_0.port++;
 		sw2_1_0.port++ <--> Channel <--> sw2_2_0.port++;
+		sw2_2_0.port++ <--> Channel <--> sw2_3_0.port++;
+		sw3_0_0.port++ <--> Channel <--> sw3_1_0.port++;
+		sw3_1_0.port++ <--> Channel <--> sw3_2_0.port++;
+		sw3_2_0.port++ <--> Channel <--> sw3_3_0.port++;
 		sw0_0_0.port++ <--> Channel <--> sw1_0_0.port++;
 		sw1_0_0.port++ <--> Channel <--> sw2_0_0.port++;
+		sw2_0_0.port++ <--> Channel <--> sw3_0_0.port++;
 		sw0_1_0.port++ <--> Channel <--> sw1_1_0.port++;
 		sw1_1_0.port++ <--> Channel <--> sw2_1_0.port++;
+		sw2_1_0.port++ <--> Channel <--> sw3_1_0.port++;
 		sw0_2_0.port++ <--> Channel <--> sw1_2_0.port++;
 		sw1_2_0.port++ <--> Channel <--> sw2_2_0.port++;
-		sw0_0_0.port++ <--> Channel <--> sw0_2_0.port++;
-		sw1_0_0.port++ <--> Channel <--> sw1_2_0.port++;
-		sw2_0_0.port++ <--> Channel <--> sw2_2_0.port++;
-		sw0_0_0.port++ <--> Channel <--> sw2_0_0.port++;
-		sw0_1_0.port++ <--> Channel <--> sw2_1_0.port++;
-		sw0_2_0.port++ <--> Channel <--> sw2_2_0.port++;
+		sw2_2_0.port++ <--> Channel <--> sw3_2_0.port++;
+		sw0_3_0.port++ <--> Channel <--> sw1_3_0.port++;
+		sw1_3_0.port++ <--> Channel <--> sw2_3_0.port++;
+		sw2_3_0.port++ <--> Channel <--> sw3_3_0.port++;
+		sw0_0_0.port++ <--> Channel <--> sw0_3_0.port++;
+		sw1_0_0.port++ <--> Channel <--> sw1_3_0.port++;
+		sw2_0_0.port++ <--> Channel <--> sw2_3_0.port++;
+		sw3_0_0.port++ <--> Channel <--> sw3_3_0.port++;
+		sw0_0_0.port++ <--> Channel <--> sw3_0_0.port++;
+		sw0_1_0.port++ <--> Channel <--> sw3_1_0.port++;
+		sw0_2_0.port++ <--> Channel <--> sw3_2_0.port++;
+		sw0_3_0.port++ <--> Channel <--> sw3_3_0.port++;
 		sw0_0_0.port++ <--> Channel <--> h0_0_0.port++;
 		sw0_1_0.port++ <--> Channel <--> h0_1_0.port++;
 		sw0_2_0.port++ <--> Channel <--> h0_2_0.port++;
+		sw0_3_0.port++ <--> Channel <--> h0_3_0.port++;
 		sw1_0_0.port++ <--> Channel <--> h1_0_0.port++;
 		sw1_1_0.port++ <--> Channel <--> h1_1_0.port++;
 		sw1_2_0.port++ <--> Channel <--> h1_2_0.port++;
+		sw1_3_0.port++ <--> Channel <--> h1_3_0.port++;
 		sw2_0_0.port++ <--> Channel <--> h2_0_0.port++;
 		sw2_1_0.port++ <--> Channel <--> h2_1_0.port++;
 		sw2_2_0.port++ <--> Channel <--> h2_2_0.port++;
+		sw2_3_0.port++ <--> Channel <--> h2_3_0.port++;
+		sw3_0_0.port++ <--> Channel <--> h3_0_0.port++;
+		sw3_1_0.port++ <--> Channel <--> h3_1_0.port++;
+		sw3_2_0.port++ <--> Channel <--> h3_2_0.port++;
+		sw3_3_0.port++ <--> Channel <--> h3_3_0.port++;
 }

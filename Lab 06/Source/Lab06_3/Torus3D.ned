@@ -1,41 +1,25 @@
 simple Host
 {
-    parameters:
-        int EXB_SIZE = 5;
-        int ENB_SIZE = 5;
 	gates:
 	    inout port[];
 }
 
 simple Switch
 {
-    parameters:
-        int EXB_SIZE = 5;
-        int ENB_SIZE = 5;
-        double OPERATION_TIME_PERIOD = 3334e-9; // 3334ns
     gates:
         inout port[];
 }
 
-network Torus
+network Torus3D
 {
-    parameters:
-        // Simulation time 1s 
-        double TIMEOUT = 1; 
-        // Message generation time period = 0.1ms
-        double MSG_GEN_TIME_PERIOD = 0.1e-3;
-        // Interval = 10ms / old: 10us
-        double INTERVAL = 10e-3; 
-        // Credit delay = 1ns
-        double CREDIT_DELAY = 1e-9; 
     @display("bgb=1000,700");
     types:
-        channel Channel extends ned.DatarateChannel
+        channel Channel extends ned.DelayChannel
         {
-            datarate = 1Gbps;
+            delay = 15ms;
         }
     submodules:
-        sw0_0_0: Switch { @display("p=200.0,200.0;i=abstract/switch"); }
+		sw0_0_0: Switch { @display("p=200.0,200.0;i=abstract/switch"); }
 		sw0_0_1: Switch { @display("p=280.0,150.0;i=abstract/switch"); }
 		sw0_0_2: Switch { @display("p=360.0,100.0;i=abstract/switch"); }
 		sw0_1_0: Switch { @display("p=200.0,400.0;i=abstract/switch"); }

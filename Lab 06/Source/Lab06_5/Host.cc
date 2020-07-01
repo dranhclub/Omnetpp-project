@@ -34,10 +34,9 @@ void Host::initialize() {
     // Khởi tạo mảng lưu kết quả
     numInterval = TIMEOUT / INTERVAL;
     receivedMsgCount = new int[numInterval];
+    recvMsgCountSum = new int[numInterval];
     memset(receivedMsgCount, 0, numInterval * sizeof(int));
-    if (recvMsgCountSum == nullptr) {
-        recvMsgCountSum = new int[numInterval]{0};
-    }
+    memset(recvMsgCountSum, 0, numInterval * sizeof(int));
 
     if (isSender) {
         scheduleAt(0, new cMessage("generate"));
@@ -125,7 +124,8 @@ void Host::finish() {
         EV << "-------------------" << endl;
     }
 
-    if (strcmp(getName(), "h2_2_0") == 0) {
+    const char* lastHostName = "h2_2_2";
+    if (strcmp(getName(), lastHostName) == 0) {
         FILE *fp;
 
         fp = fopen("./Result.txt", "w");

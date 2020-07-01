@@ -19,12 +19,12 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-//        TorusGenerator generator = new Torus3DGenerator(3);
-//        writeToFile(generator.generateNED(), "../Torus3D.ned");
-//        writeToFile(generator.getConnectionsList(), "../ConnectionsList.txt");
-
-        TorusGenerator generator = new Torus2DGenerator(3);
-        writeToFile(generator.generateNED(), "../Torus2D.ned");
+        TorusGenerator generator = new Torus3DGenerator(3);
+        writeToFile(generator.generateNED(), "../Torus3D.ned");
         writeToFile(generator.getConnectionsList(), "../ConnectionsList.txt");
+
+//        TorusGenerator generator = new Torus2DGenerator(4);
+//        writeToFile(generator.generateNED(), "../Torus2D.ned");
+//        writeToFile(generator.getConnectionsList(), "../ConnectionsList.txt");
     }
 }

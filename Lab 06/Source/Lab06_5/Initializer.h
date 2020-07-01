@@ -19,6 +19,7 @@ public:
 
     static Initializer* getInstance();
 
+    void randomize();
     bool getDuty(std::string hostName);
     std::string getPairHostName(std::string hostName);
 };
